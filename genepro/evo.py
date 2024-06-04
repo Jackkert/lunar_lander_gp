@@ -166,7 +166,8 @@ class Evolution:
       individual.get_readable_repr()
 
     # evaluate the trees and store their fitness
-    fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in self.population)
+    seeds = np.random.randint(0, 100000, size=5)
+    fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t, seeds) for t in self.population)
     fitnesses = list(map(list, zip(*fitnesses)))
     memories = fitnesses[1]
     memory = memories[0]

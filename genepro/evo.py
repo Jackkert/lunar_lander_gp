@@ -166,6 +166,7 @@ class Evolution:
       individual.get_readable_repr()
     
     # evaluate the trees and store their fitness
+    global seeds
     seeds = np.random.randint(0, 100000, size=15)
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in self.population)
     fitnesses = list(map(list, zip(*fitnesses)))
@@ -200,7 +201,8 @@ class Evolution:
       constraints={"max_tree_size": self.max_tree_size}) 
       for t in parents)
 
-    # evaluate each offspring and store its fitness 
+    # evaluate each offspring and store its fitness
+    global seeds
     seeds = np.random.randint(0, 100000, size=15)
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in offspring_population)
     fitnesses = list(map(list, zip(*fitnesses)))

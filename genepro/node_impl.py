@@ -36,7 +36,29 @@ class Minus(Node, nn.Module):
   def get_output_pt(self, X):
     c_outs = self._get_child_outputs_pt(X)
     return c_outs[0] - c_outs[1]
+  
+class Positive(Node, nn.Module):
+  def __init__(self):
+    super(Positive,self).__init__()
+    self.arity = 1
+    self.symb = 'positive'
 
+  def _get_args_repr(self, args):
+    return self._get_typical_repr(args,'after')
+
+  def get_output(self, X):
+    c_outs = self._get_child_outputs(X)
+    if c_outs[0] > 0:
+      return c_outs[0]
+    else:
+      return c_outs[0]-c_outs[0]
+
+  def get_output_pt(self, X):
+    c_outs = self._get_child_outputs_pt(X)
+    if c_outs[0] > 0:
+      return c_outs[0]
+    else:
+      return c_outs[0]-c_outs[0]
 
 class Times(Node, nn.Module):
   def __init__(self):

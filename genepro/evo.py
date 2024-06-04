@@ -11,6 +11,7 @@ from joblib.parallel import Parallel, delayed
 
 from genepro.node import Node
 from genepro.variation import *
+
 from genepro.selection import tournament_selection
 
 class Evolution:
@@ -130,7 +131,9 @@ class Evolution:
     self.num_evals = 0
     self.start_time, self.elapsed_time = 0, 0
     self.best_of_gens = list()
-
+    self.bestFitnesses = list()
+    self.bestFitnesses.append(-1000)
+    self.bestFitnesses.append(-700)
     self.memory = None
 
 
@@ -166,8 +169,9 @@ class Evolution:
       individual.get_readable_repr()
     
     # evaluate the trees and store their fitness
-    global seeds
-    seeds = np.random.randint(0, 100000, size=15)
+    
+    
+    self.initSeeds()
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in self.population)
     fitnesses = list(map(list, zip(*fitnesses)))
     memories = fitnesses[1]
@@ -202,8 +206,10 @@ class Evolution:
       for t in parents)
 
     # evaluate each offspring and store its fitness
-    global seeds
-    seeds = np.random.randint(0, 100000, size=15)
+    if(self.bestFitnesses[-1] > max(self.bestFitnesses[-15:-1])):
+      print(f"{self.bestFitnesses[-1]} > {max(self.bestFitnesses[-15:-1])}")
+      print("Changing seeds")
+      self.initSeeds()
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in offspring_population)
     fitnesses = list(map(list, zip(*fitnesses)))
     memories = fitnesses[1]
@@ -217,6 +223,11 @@ class Evolution:
 
     for i in range(self.pop_size):
       offspring_population[i].fitness = fitnesses[i]
+    
+    for _ in range(3):
+      lowest = self.population[np.argmin([t.fitness for t in self.population])]
+      self.population.remove(lowest)
+      self.population.append(deepcopy(self.best_of_gens[len(self.best_of_gens)-1]))
     # store cost
     self.num_evals += self.pop_size
     # update the population for the next iteration
@@ -224,6 +235,11 @@ class Evolution:
     # update info
     self.num_gens += 1
     best = self.population[np.argmax([t.fitness for t in self.population])]
+    
+    self.bestFitnesses.append(max([t.fitness for t in self.population]))
+    
+    
+    
     self.best_of_gens.append(deepcopy(best))
 
   def evolve(self):

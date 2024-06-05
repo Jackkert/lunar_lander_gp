@@ -1,6 +1,9 @@
+from collections import namedtuple
+import copy
 from typing import Callable
 
 import numpy as np
+import statistics
 from numpy.random import random as randu
 from numpy.random import randint as randi
 from numpy.random import choice as randc
@@ -13,6 +16,9 @@ from genepro.node import Node
 from genepro.variation import *
 
 from genepro.selection import tournament_selection
+import torch
+import torch.optim as optim
+import torch.nn as nn
 
 class Evolution:
   """
@@ -101,6 +107,7 @@ class Evolution:
     mutations : list= [{"fun":subtree_mutation, "rate": 0.5}],
     coeff_opts : list = [{"fun":coeff_mutation, "rate": 0.5}],
     selection : dict={"fun":tournament_selection,"kwargs":{"tournament_size":8}},
+    elitism : float = 0.1,
     # termination criteria
     max_evals : int=None,
     max_gens : int=100,
@@ -189,6 +196,52 @@ class Evolution:
     self.num_evals += self.pop_size
     # store best at initialization
     best = self.population[np.argmax([t.fitness for t in self.population])]
+    
+    #
+    Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
+    batch_size = 128
+    GAMMA = 0.99
+
+    constants = best.get_subtrees_consts()
+
+    if len(constants)>0:
+      optimizer = optim.AdamW(constants, lr=1e-3, amsgrad=True)
+
+    for _ in range(500):
+
+      if len(constants)>0 and len(self.memory)>batch_size:
+        target_tree = copy.deepcopy(best)
+
+        transitions = self.memory.sample(batch_size)
+        batch = Transition(*zip(*transitions))
+        
+        non_final_mask = torch.tensor(tuple(map(lambda s: s is not None,
+                                            batch.next_state)), dtype=torch.bool)
+
+        non_final_next_states = torch.cat([s for s in batch.next_state
+                                                  if s is not None])
+        state_batch = torch.cat(batch.state)
+        action_batch = torch.cat(batch.action)
+        reward_batch = torch.cat(batch.reward)
+
+        state_action_values = best.get_output_pt(state_batch).gather(1, action_batch)
+        next_state_values = torch.zeros(batch_size, dtype=torch.float)
+        with torch.no_grad():
+          next_state_values[non_final_mask] = target_tree.get_output_pt(non_final_next_states).max(1)[0].float()
+
+        expected_state_action_values = (next_state_values * GAMMA) + reward_batch
+        
+        criterion = nn.SmoothL1Loss()
+        loss = criterion(state_action_values, expected_state_action_values.unsqueeze(1))
+      
+        # Optimize the model
+        optimizer.zero_grad()
+        loss.backward()
+        torch.nn.utils.clip_grad_value_(constants, 100)
+        optimizer.step()
+    #
+    
+    
     self.best_of_gens.append(deepcopy(best))
 
   def _perform_generation(self):
@@ -198,6 +251,10 @@ class Evolution:
     # select promising parents
     sel_fun = self.selection["fun"]
     parents = sel_fun(self.population, self.pop_size, **self.selection["kwargs"])
+    
+    elite_count = int(0.1 * self.pop_size)
+    elites = sorted(self.population, key=lambda x: x.fitness, reverse=True)[:elite_count]
+    
     # generate offspring
     offspring_population = Parallel(n_jobs=self.n_jobs)(delayed(generate_offspring)
       (t, self.crossovers, self.mutations, self.coeff_opts, 
@@ -205,13 +262,35 @@ class Evolution:
       constraints={"max_tree_size": self.max_tree_size}) 
       for t in parents)
 
+
+  
     # evaluate each offspring and store its fitness
-    if(self.bestFitnesses[-1] > max(self.bestFitnesses[-15:-1])):
-      print(f"{self.bestFitnesses[-1]} > {max(self.bestFitnesses[-15:-1])}")
-      print("Changing seeds")
+    if(self.population[np.argmax([t.fitness for t in self.population])].fitness>200 and statistics.mean([ind.fitness for ind in self.population]) > 150):
+      self.initSeeds(True)
+    else:
       self.initSeeds()
+
+    #for elites only
+    
+    fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in elites)
+    fitnesses = list(map(list, zip(*fitnesses)))
+
+    memories = fitnesses[1]
+    memory = memories[0]
+
+    fitnesses = fitnesses[0]
+
+    for i in range(elite_count):
+      elites[i].fitness = fitnesses[i]
+    
+    #for elites end
+    
+    
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in offspring_population)
     fitnesses = list(map(list, zip(*fitnesses)))
+    
+
+    
     memories = fitnesses[1]
     memory = memories[0]
     for m in range(1,len(memories)):
@@ -223,11 +302,11 @@ class Evolution:
 
     for i in range(self.pop_size):
       offspring_population[i].fitness = fitnesses[i]
+      
+      
+
     
-    for _ in range(3):
-      lowest = self.population[np.argmin([t.fitness for t in self.population])]
-      self.population.remove(lowest)
-      self.population.append(deepcopy(self.best_of_gens[len(self.best_of_gens)-1]))
+
     # store cost
     self.num_evals += self.pop_size
     # update the population for the next iteration
@@ -239,8 +318,19 @@ class Evolution:
     self.bestFitnesses.append(max([t.fitness for t in self.population]))
     
     
+    lowest = self.population[np.argmin([t.fitness for t in self.population])]
+    
+    
+    self.population.remove(lowest)
+    self.population.append(deepcopy(best))
+    #print(f"Removing {lowest.fitness} adding {best.fitness}")
     
     self.best_of_gens.append(deepcopy(best))
+    for i in range(1,elite_count):
+      lowest = self.population[np.argmin([t.fitness for t in self.population])]
+      self.population.remove(lowest)
+      self.population.append(deepcopy(elites[i]))
+      #print(f"Removing {lowest.fitness} adding {elites[i].fitness}")
 
   def evolve(self):
     """
@@ -263,3 +353,9 @@ class Evolution:
         print("gen: {},\tbest of gen fitness: {:.3f},\tbest of gen size: {}".format(
             self.num_gens, self.best_of_gens[-1].fitness, len(self.best_of_gens[-1])
             ))
+        print(f"Average fitness: {statistics.mean(f := [ind.fitness for ind in self.population]):.2f}, "
+      f"Standard deviation: {statistics.stdev(f):.2f}, "
+      f"Minimum fitness: {min(f):.2f}, "
+      f"Maximum fitness: {max(f):.2f}, "
+      f"Median fitness: {statistics.median(f):.2f}, "
+      f"Variance: {statistics.variance(f):.2f}")

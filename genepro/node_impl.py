@@ -137,6 +137,25 @@ class Cube(Node):
     return np.multiply(np.square(c_outs[0]), c_outs[0])
 
 
+class Sin(Node):
+  def __init__(self):
+    super(Sqrt,self).__init__()
+    self.arity = 1
+    self.symb = 'sin'
+
+  def _get_args_repr(self, args):
+    # let's report also protection
+    return "sqrt("+args[0]+")"
+
+  def get_output(self, X):
+    c_outs = self._get_child_outputs(X)
+    # implements a protection to avoid arg <= 0
+    return np.sin(c_outs[0])
+
+  def get_output_pt(self, X):
+    c_outs = self._get_child_outputs_pt(X)
+    return torch.sin(c_outs[0])
+
 class Sqrt(Node):
   def __init__(self):
     super(Sqrt,self).__init__()

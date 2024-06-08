@@ -205,7 +205,7 @@ def subtree_mutation(multitree : Multitree, internal_nodes : list, leaf_nodes : 
   multitree.children[r] = tree
   return multitree
 
-def coeff_mutation(multitree : Multitree, prob_coeff_mut : float= 0.25, temp : float=0.25) -> Node:
+def coeff_mutation(multitree : Multitree, optimize : bool, prob_coeff_mut : float= 0.25, temp : float=0.25) -> Node:
   """
   Applies random coefficient mutations to constant nodes 
 
@@ -284,7 +284,7 @@ def __sample_uniform_depth_nodes(nodes : list) -> list:
 
 def generate_offspring(parent : Node, 
   crossovers : list, mutations : list, coeff_opts : list,
-  donors : list, internal_nodes : list, leaf_nodes : list,
+  donors : list, internal_nodes : list, leaf_nodes : list, greedy: bool, chosen: Node,
   constraints : dict={"max_tree_size": 100}) -> Node:
   """
   Generates an offspring from a given parent (possibly using a donor from the population for crossover).
@@ -320,6 +320,16 @@ def generate_offspring(parent : Node,
   # create a backup for constraint violation
   backup = deepcopy(offspring)
 
+  # optimize unless we are doing e-greedy and and the parent is not chosen
+  # based on e-greedy we cannot already decide to not optimize here
+  # we just have to pass whether or not to optimize to the coeff_opt
+  # and then for the gaussian one we just do basically nothing with this value but that's fine
+
+  # check whether or not we do coefficient mutation here
+  optimize = False
+  if parent == chosen:
+    optimize = True
+    
   # apply variation operators in a random order
   all_var_ops = crossovers + mutations + coeff_opts
   random_order = np.arange(len(all_var_ops))
@@ -328,7 +338,7 @@ def generate_offspring(parent : Node,
     var_op = all_var_ops[i]
     offspring = __undergo_variation_operator(var_op, offspring, 
       crossovers, mutations, coeff_opts,
-      randc(donors), internal_nodes, leaf_nodes)
+      randc(donors), internal_nodes, leaf_nodes, optimize)
     # check offspring meets constraints, else revert to backup
     if not __check_tree_meets_all_constraints(offspring, constraints):
       # revert to backup
@@ -342,7 +352,7 @@ def generate_offspring(parent : Node,
 
 def __undergo_variation_operator(var_op : dict, offspring : Node,
   crossovers, mutations, coeff_opts,
-  donor, internal_nodes, leaf_nodes) -> Node:
+  donor, internal_nodes, leaf_nodes, optimize) -> Node:
   # decide whether to actually do something
   if var_op["rate"] < randu():
     # nope
@@ -358,7 +368,7 @@ def __undergo_variation_operator(var_op : dict, offspring : Node,
     # we need to provide node types 
     offspring = var_op_fun(offspring, internal_nodes, leaf_nodes, **var_op["kwargs"])
   elif var_op in coeff_opts:
-    offspring = var_op_fun(offspring, **var_op["kwargs"])
+    offspring = var_op_fun(offspring, optimize, **var_op["kwargs"])
 
   return offspring
 

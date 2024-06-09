@@ -281,10 +281,9 @@ def __sample_uniform_depth_nodes(nodes : list) -> list:
   
 
 
-
 def generate_offspring(parent : Node, 
   crossovers : list, mutations : list, coeff_opts : list,
-  donors : list, internal_nodes : list, leaf_nodes : list, greedy: bool, chosen: Node,
+  donors : list, internal_nodes : list, leaf_nodes : list, chosen: Node,
   constraints : dict={"max_tree_size": 100}) -> Node:
   """
   Generates an offspring from a given parent (possibly using a donor from the population for crossover).
@@ -320,15 +319,8 @@ def generate_offspring(parent : Node,
   # create a backup for constraint violation
   backup = deepcopy(offspring)
 
-  # optimize unless we are doing e-greedy and and the parent is not chosen
-  # based on e-greedy we cannot already decide to not optimize here
-  # we just have to pass whether or not to optimize to the coeff_opt
-  # and then for the gaussian one we just do basically nothing with this value but that's fine
-
-  # check whether or not we do coefficient mutation here
-  optimize = False
-  if parent == chosen:
-    optimize = True
+  # check whether or not we do coefficient mutation for this individual
+  optimize = True if parent == chosen else False
     
   # apply variation operators in a random order
   all_var_ops = crossovers + mutations + coeff_opts

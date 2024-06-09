@@ -194,21 +194,16 @@ class Evolution:
     parents = sel_fun(self.population, self.pop_size, **self.selection["kwargs"])
 
     # generate which individual should be selected for non-greedy strategy
-    chosen = np.random.choice(parents)
+    chosen = parents[np.argmax([t.fitness for t in parents])]
     
-    # calculate whether we do greedy or not e-greedy
-    greedy = False
-    if randu() < self.num_gens / self.max_gens:
-      greedy = True
-      chosen = parents[np.argmax([t.fitness for t in parents])]
-
-    # print("Chosen is ", chosen.fitness)
-    # print("greedy is ", greedy)
+    # if true, then we replace the random individual by the best individual to optimize
+    if randu() < 0.1:
+      chosen = np.random.choice(parents) 
 
     # generate offspring
     offspring_population = Parallel(n_jobs=self.n_jobs)(delayed(generate_offspring)
       (t, self.crossovers, self.mutations, self.coeff_opts, 
-      parents, self.internal_nodes, self.leaf_nodes, greedy, chosen,
+      parents, self.internal_nodes, self.leaf_nodes, chosen,
       constraints={"max_tree_size": self.max_tree_size}) 
       for t in parents)
 

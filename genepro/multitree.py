@@ -9,6 +9,8 @@ class Multitree(nn.Module):
     super(Multitree, self).__init__()
     self.n_trees = n_trees
     self.children = []
+    self.wins = 0
+    self.games = 0
 
   def get_output_pt(self, x):
     output = []

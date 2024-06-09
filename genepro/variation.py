@@ -336,7 +336,7 @@ def generate_offspring(parent : Node,
     else:
       # update backup
       backup = deepcopy(offspring)
-
+  
   return offspring
 
 
@@ -348,6 +348,9 @@ def __undergo_variation_operator(var_op : dict, offspring : Node,
     # nope
     return offspring
 
+  offspring.games = 0
+  offspring.wins = 0
+  
   # prepare the function to call
   var_op_fun = var_op["fun"]
   # next, we need to provide the right arguments based on the type of ops

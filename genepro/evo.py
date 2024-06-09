@@ -115,6 +115,7 @@ class Evolution:
     # other
     n_jobs : int=4,
     verbose : bool=False,
+    initialPopulation : list = list()
     ):
 
     # set parameters as attributes
@@ -133,7 +134,7 @@ class Evolution:
       selection["kwargs"] = dict()
 
     # initialize some state variables
-    self.population = list()
+    self.population = initialPopulation
     self.num_gens = 0
     self.num_evals = 0
     self.start_time, self.elapsed_time = 0, 0
@@ -252,8 +253,8 @@ class Evolution:
     sel_fun = self.selection["fun"]
     parents = sel_fun(self.population, self.pop_size, **self.selection["kwargs"])
     
-    elite_count = int(0.1 * self.pop_size)
-    elites = sorted(self.population, key=lambda x: x.fitness, reverse=True)[:elite_count]
+    elite_count = int(self.elitism * self.pop_size)
+    elites = deepcopy(sorted(self.population, key=lambda x: x.fitness, reverse=True)[:elite_count])
     
     # generate offspring
     offspring_population = Parallel(n_jobs=self.n_jobs)(delayed(generate_offspring)
@@ -263,21 +264,27 @@ class Evolution:
       for t in parents)
 
 
-  
+    
     # evaluate each offspring and store its fitness
-    if(self.population[np.argmax([t.fitness for t in self.population])].fitness>200 and statistics.mean([ind.fitness for ind in self.population]) > 150):
+    difficulty = self.initSeeds()
+    if(self.population[np.argmax([t.fitness for t in self.population])].fitness>150 and statistics.mean([ind.fitness for ind in self.population]) > 20):
       self.initSeeds(True)
-    else:
-      self.initSeeds()
 
     #for elites only
     
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in elites)
+    
     fitnesses = list(map(list, zip(*fitnesses)))
-
+    
     memories = fitnesses[1]
     memory = memories[0]
 
+    for i in range(elite_count):
+      elites[i].fitness = fitnesses[0][i]
+      elites[i].games += fitnesses[3][i]
+      elites[i].wins += fitnesses[2][i]
+  
+  
     fitnesses = fitnesses[0]
 
     for i in range(elite_count):
@@ -287,6 +294,7 @@ class Evolution:
     
     
     fitnesses = Parallel(n_jobs=self.n_jobs)(delayed(self.fitness_function)(t) for t in offspring_population)
+
     fitnesses = list(map(list, zip(*fitnesses)))
     
 
@@ -298,10 +306,13 @@ class Evolution:
 
     self.memory = memory + self.memory
 
+    for i in range(self.pop_size):
+      offspring_population[i].fitness = fitnesses[0][i]
+      offspring_population[i].games += fitnesses[3][i]
+      offspring_population[i].wins += fitnesses[2][i]
+      
     fitnesses = fitnesses[0]
 
-    for i in range(self.pop_size):
-      offspring_population[i].fitness = fitnesses[i]
       
       
 
@@ -311,6 +322,12 @@ class Evolution:
     self.num_evals += self.pop_size
     # update the population for the next iteration
     self.population = offspring_population
+    
+    for i in range(1,elite_count):
+      lowest = self.population[np.argmin([t.fitness for t in self.population])]
+      self.population.remove(lowest)
+      self.population.append(deepcopy(elites[i]))
+    
     # update info
     self.num_gens += 1
     best = self.population[np.argmax([t.fitness for t in self.population])]
@@ -326,10 +343,7 @@ class Evolution:
     #print(f"Removing {lowest.fitness} adding {best.fitness}")
     
     self.best_of_gens.append(deepcopy(best))
-    for i in range(1,elite_count):
-      lowest = self.population[np.argmin([t.fitness for t in self.population])]
-      self.population.remove(lowest)
-      self.population.append(deepcopy(elites[i]))
+
       #print(f"Removing {lowest.fitness} adding {elites[i].fitness}")
 
   def evolve(self):
@@ -342,7 +356,8 @@ class Evolution:
     # set the start time
     self.start_time = time.time()
 
-    self._initialize_population()
+    if(self.population == list()):
+      self._initialize_population()
 
     # generational loop
     while not self._must_terminate():
@@ -353,9 +368,13 @@ class Evolution:
         print("gen: {},\tbest of gen fitness: {:.3f},\tbest of gen size: {}".format(
             self.num_gens, self.best_of_gens[-1].fitness, len(self.best_of_gens[-1])
             ))
+        w = [ind.wins for ind in self.population]
+        g = [ind.games for ind in self.population]
         print(f"Average fitness: {statistics.mean(f := [ind.fitness for ind in self.population]):.2f}, "
       f"Standard deviation: {statistics.stdev(f):.2f}, "
       f"Minimum fitness: {min(f):.2f}, "
       f"Maximum fitness: {max(f):.2f}, "
+      f"Best scores: {self.best_of_gens[-1].wins}/{self.best_of_gens[-1].games}, "
+      f"Best scores: {statistics.mean(w):.2f}/{statistics.stdev(g):.2f}, "
       f"Median fitness: {statistics.median(f):.2f}, "
       f"Variance: {statistics.variance(f):.2f}")

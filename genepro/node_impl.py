@@ -139,13 +139,13 @@ class Cube(Node):
 
 class Sin(Node):
   def __init__(self):
-    super(Sqrt,self).__init__()
+    super(Sin,self).__init__()
     self.arity = 1
     self.symb = 'sin'
 
   def _get_args_repr(self, args):
     # let's report also protection
-    return "sqrt("+args[0]+")"
+    return "sin("+args[0]+")"
 
   def get_output(self, X):
     c_outs = self._get_child_outputs(X)
@@ -211,23 +211,26 @@ class Exp(Node):
     c_outs = self._get_child_outputs(X)
     return np.exp(c_outs[0])
 
-
-class Sin(Node):
+  
+class SinW(Node):
   def __init__(self):
-    super(Sin,self).__init__()
-    self.arity = 1
-    self.symb = "sin"
+    super(SinW,self).__init__()
+    self.arity = 2
+    self.symb = 'sin'
 
   def _get_args_repr(self, args):
-    return self._get_typical_repr(args,'before')
+    # let's report also protection
+    return "sin("+args[0]+" * "+args[1]+")"
 
   def get_output(self, X):
     c_outs = self._get_child_outputs(X)
-    return np.sin(c_outs[0])
+    return np.sin(c_outs[0]*c_outs[1])
 
   def get_output_pt(self, X):
     c_outs = self._get_child_outputs_pt(X)
-    return torch.sin(c_outs[0])
+    return torch.sin(c_outs[0]*c_outs[1])
+  
+
 
 
 class Cos(Node):
@@ -237,7 +240,8 @@ class Cos(Node):
     self.symb = "cos"
 
   def _get_args_repr(self, args):
-    return self._get_typical_repr(args,'before')
+    # let's report also protection
+    return "cos("+args[0]+")"
 
   def get_output(self, X):
     c_outs = self._get_child_outputs(X)
@@ -246,6 +250,24 @@ class Cos(Node):
   def get_output_pt(self, X):
     c_outs = self._get_child_outputs_pt(X)
     return torch.cos(c_outs[0])
+  
+class CosW(Node):
+  def __init__(self):
+    super(CosW,self).__init__()
+    self.arity = 2
+    self.symb = "cos"
+
+  def _get_args_repr(self, args):
+    # let's report also protection
+    return "cos("+args[0]+"*"+args[1]+")"
+
+  def get_output(self, X):
+    c_outs = self._get_child_outputs(X)
+    return np.cos(c_outs[0] * c_outs[1])
+
+  def get_output_pt(self, X):
+    c_outs = self._get_child_outputs_pt(X)
+    return torch.cos(c_outs[0] * c_outs[1])
 
 
 class Max(Node):

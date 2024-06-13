@@ -1,0 +1,11 @@
+The model was obtained over 300 generations.
+Fitness function: average of scores over 5 runs. The scores obtained if they were higher than 200 they were set to 200.
+Elitism set to 0.02 (first 2% get to the next generation without any modifications, replacing the lowest fitnesses). Even when moving without any modification, a new fitness was calculated for them too, because of the random nature of the seeds.
+max_tree_size 70
+subtree_crossover: rate 0.5
+coeff_opts rate 0.4
+selection: tournament_size 10
+
+
+
+From the final individuals, a test of 20 runs has been done with the first 20 seeds, and the top 3 were selected for 100 runs. Out of the top 3, the highest was chosen at 65/100 scores higher than 200.

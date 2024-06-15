@@ -198,50 +198,6 @@ class Evolution:
     # store best at initialization
     best = self.population[np.argmax([t.fitness for t in self.population])]
     
-    #
-    Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
-    batch_size = 128
-    GAMMA = 0.99
-
-    constants = best.get_subtrees_consts()
-
-    if len(constants)>0:
-      optimizer = optim.AdamW(constants, lr=1e-3, amsgrad=True)
-
-    for _ in range(500):
-
-      if len(constants)>0 and len(self.memory)>batch_size:
-        target_tree = copy.deepcopy(best)
-
-        transitions = self.memory.sample(batch_size)
-        batch = Transition(*zip(*transitions))
-        
-        non_final_mask = torch.tensor(tuple(map(lambda s: s is not None,
-                                            batch.next_state)), dtype=torch.bool)
-
-        non_final_next_states = torch.cat([s for s in batch.next_state
-                                                  if s is not None])
-        state_batch = torch.cat(batch.state)
-        action_batch = torch.cat(batch.action)
-        reward_batch = torch.cat(batch.reward)
-
-        state_action_values = best.get_output_pt(state_batch).gather(1, action_batch)
-        next_state_values = torch.zeros(batch_size, dtype=torch.float)
-        with torch.no_grad():
-          next_state_values[non_final_mask] = target_tree.get_output_pt(non_final_next_states).max(1)[0].float()
-
-        expected_state_action_values = (next_state_values * GAMMA) + reward_batch
-        
-        criterion = nn.SmoothL1Loss()
-        loss = criterion(state_action_values, expected_state_action_values.unsqueeze(1))
-      
-        # Optimize the model
-        optimizer.zero_grad()
-        loss.backward()
-        torch.nn.utils.clip_grad_value_(constants, 100)
-        optimizer.step()
-    #
-    
     
     self.best_of_gens.append(deepcopy(best))
 

@@ -7,20 +7,17 @@ In order to be able to implement an e-greedy strategy for Deep Q-learning coeffi
 evo.py
 
 > def perform_generation(self):
-> ...
-> ...
 > 
 > \+ chosen  =  parents[np.argmax([t.fitness for t in  parents])]
 > \+ if randu() < 0.1
 >> \+ chosen = np.random.choice(parents)
-> 
-> ...
-> ...
+>>
+
+
+
 
 variation.py
 > generate_offsprint(...):
-> ...
-> ...
 >  
 >  \+ optimize = False
 >  \+ if parent == chosen:

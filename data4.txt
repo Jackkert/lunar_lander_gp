@@ -1,0 +1,752 @@
+seeds: [24980, 31873, 26952, 29198, 5100, 29254, 19042, 17430, 22480, 6550, 6642, 22374, 24588, 8950, 26402, 12954, 16186, 10939, 31948, 4992]
+seeds: [3392, 27329, 18888, 19875, 17506, 18733, 12893, 26681, 14743, 11417, 4737, 17925, 25702, 17017, 17739, 20121, 16637, 12924, 1164, 28275]
+gen: 1,	best of gen fitness: -122.200,	best of gen size: 22
+Average fitness: -169.78, Standard deviation: 86.98, Minimum fitness: -561.85, Maximum fitness: -122.20, Best scores: 0/5, Best scores: 0.00/0.00, Median fitness: -131.85, Variance: 7565.62
+seeds: [4748, 6581, 21525, 12152, 15327, 1204, 26448, 25812, 10292, 13996, 12975, 25606, 24117, 17694, 31069, 14640, 11058, 24863, 25873, 21978]
+gen: 2,	best of gen fitness: -56.045,	best of gen size: 19
+Average fitness: -159.09, Standard deviation: 145.14, Minimum fitness: -766.86, Maximum fitness: -56.05, Best scores: 1/10, Best scores: 0.04/1.67, Median fitness: -104.24, Variance: 21064.74
+seeds: [16343, 24595, 19273, 2666, 7338, 19960, 6113, 15477, 8746, 3551, 2036, 9810, 1634, 10228, 15855, 17108, 9111, 11070, 7344, 719]
+gen: 3,	best of gen fitness: -48.598,	best of gen size: 24
+Average fitness: -138.91, Standard deviation: 135.99, Minimum fitness: -674.57, Maximum fitness: -48.60, Best scores: 1/5, Best scores: 0.08/2.63, Median fitness: -82.61, Variance: 18492.88
+seeds: [31852, 25183, 727, 11530, 23560, 31062, 12870, 23046, 4027, 20620, 18591, 30852, 10636, 12165, 18116, 16552, 6037, 20167, 11612, 30650]
+gen: 4,	best of gen fitness: -59.227,	best of gen size: 24
+Average fitness: -130.69, Standard deviation: 93.41, Minimum fitness: -476.88, Maximum fitness: -59.23, Best scores: 1/5, Best scores: 0.08/2.23, Median fitness: -98.60, Variance: 8725.65
+seeds: [10995, 18288, 2855, 1619, 30053, 18913, 20238, 26053, 16418, 21206, 27397, 22437, 19073, 30018, 22324, 9601, 31940, 22525, 19044, 16914]
+gen: 5,	best of gen fitness: -138.444,	best of gen size: 24
+Average fitness: -207.29, Standard deviation: 146.54, Minimum fitness: -637.87, Maximum fitness: -138.44, Best scores: 0/10, Best scores: 0.06/1.97, Median fitness: -138.44, Variance: 21474.66
+seeds: [10062, 9412, 15286, 28515, 22344, 18285, 28906, 24413, 7207, 5282, 16681, 26789, 3959, 1888, 13142, 3039, 2445, 27418, 27643, 7946]
+gen: 6,	best of gen fitness: -131.538,	best of gen size: 31
+Average fitness: -144.07, Standard deviation: 46.60, Minimum fitness: -445.63, Maximum fitness: -131.54, Best scores: 0/5, Best scores: 0.02/2.78, Median fitness: -131.60, Variance: 2171.58
+seeds: [8978, 20480, 27422, 14659, 8259, 11333, 27602, 27035, 25269, 16615, 13538, 12124, 28697, 16854, 30837, 15561, 3651, 27406, 15623, 8475]
+gen: 7,	best of gen fitness: -154.730,	best of gen size: 31
+Average fitness: -179.04, Standard deviation: 116.64, Minimum fitness: -735.03, Maximum fitness: -154.73, Best scores: 0/5, Best scores: 0.00/2.66, Median fitness: -154.73, Variance: 13604.97
+seeds: [15543, 27300, 29346, 30372, 31320, 31242, 4235, 9373, 4034, 28894, 12988, 8582, 676, 18498, 27020, 29163, 15153, 4304, 3911, 30213]
+gen: 8,	best of gen fitness: -113.670,	best of gen size: 16
+Average fitness: -151.18, Standard deviation: 96.59, Minimum fitness: -570.51, Maximum fitness: -113.67, Best scores: 0/5, Best scores: 0.00/2.30, Median fitness: -118.94, Variance: 9328.90
+seeds: [24846, 242, 11830, 31956, 9904, 23601, 23839, 7485, 25472, 26251, 9234, 16714, 26462, 24286, 15939, 13731, 22665, 17715, 15443, 17980]
+gen: 9,	best of gen fitness: -104.564,	best of gen size: 19
+Average fitness: -180.44, Standard deviation: 153.37, Minimum fitness: -516.64, Maximum fitness: -104.56, Best scores: 0/5, Best scores: 0.00/1.54, Median fitness: -108.26, Variance: 23522.80
+seeds: [18886, 13174, 8099, 29052, 28561, 18700, 24843, 9433, 9746, 2359, 15843, 2856, 7944, 20552, 26500, 31408, 19314, 27250, 30145, 9937]
+gen: 10,	best of gen fitness: -112.515,	best of gen size: 31
+Average fitness: -180.85, Standard deviation: 113.99, Minimum fitness: -501.99, Maximum fitness: -112.52, Best scores: 0/5, Best scores: 0.00/1.97, Median fitness: -129.71, Variance: 12993.13
+seeds: [8517, 2236, 8968, 24532, 17786, 30488, 23562, 1025, 2869, 28571, 25798, 5757, 10804, 15818, 23724, 11026, 6207, 22373, 25474, 6205]
+gen: 11,	best of gen fitness: -84.035,	best of gen size: 19
+Average fitness: -134.66, Standard deviation: 111.73, Minimum fitness: -552.71, Maximum fitness: -84.04, Best scores: 0/5, Best scores: 0.00/2.42, Median fitness: -89.30, Variance: 12483.50
+seeds: [1565, 10620, 15708, 29173, 16099, 27092, 15736, 19025, 16264, 5879, 20597, 18419, 3228, 26569, 31698, 25516, 24524, 6885, 17484, 12673]
+gen: 12,	best of gen fitness: -112.871,	best of gen size: 21
+Average fitness: -174.71, Standard deviation: 120.69, Minimum fitness: -520.53, Maximum fitness: -112.87, Best scores: 0/5, Best scores: 0.00/2.66, Median fitness: -112.87, Variance: 14566.52
+seeds: [12614, 23182, 20217, 17145, 24236, 16811, 23006, 12858, 18333, 29798, 20868, 30572, 19992, 29217, 20777, 25921, 26175, 1024, 3307, 21479]
+gen: 13,	best of gen fitness: -126.881,	best of gen size: 19
+Average fitness: -195.57, Standard deviation: 140.98, Minimum fitness: -584.30, Maximum fitness: -126.88, Best scores: 0/5, Best scores: 0.00/2.06, Median fitness: -126.88, Variance: 19874.78
+seeds: [16402, 9028, 6883, 19443, 12671, 3136, 889, 10725, 1370, 11180, 9029, 13328, 3106, 5530, 5268, 25314, 17616, 6731, 14133, 27777]
+gen: 14,	best of gen fitness: -123.806,	best of gen size: 20
+Average fitness: -181.38, Standard deviation: 140.97, Minimum fitness: -627.98, Maximum fitness: -123.81, Best scores: 0/5, Best scores: 0.00/2.06, Median fitness: -123.81, Variance: 19873.00
+seeds: [2726, 22753, 24438, 17810, 30067, 9084, 31043, 27911, 3672, 30427, 11958, 14337, 3118, 13274, 28054, 28926, 5319, 25952, 18140, 1324]
+gen: 15,	best of gen fitness: -101.803,	best of gen size: 31
+Average fitness: -206.57, Standard deviation: 207.87, Minimum fitness: -868.33, Maximum fitness: -101.80, Best scores: 0/5, Best scores: 0.00/1.78, Median fitness: -121.28, Variance: 43209.85
+seeds: [13616, 10530, 5969, 71, 5476, 16742, 5123, 1779, 15310, 450, 13164, 27070, 7005, 14975, 12724, 15096, 21486, 7298, 14538, 25110]
+gen: 16,	best of gen fitness: -118.736,	best of gen size: 29
+Average fitness: -162.50, Standard deviation: 125.11, Minimum fitness: -596.58, Maximum fitness: -118.74, Best scores: 0/5, Best scores: 0.00/2.76, Median fitness: -127.22, Variance: 15651.47
+seeds: [1352, 17700, 16961, 5282, 23741, 13203, 3669, 5240, 28211, 14936, 2659, 3794, 11248, 15923, 28340, 27408, 12686, 23402, 5318, 9091]
+gen: 17,	best of gen fitness: -121.264,	best of gen size: 22
+Average fitness: -187.13, Standard deviation: 142.02, Minimum fitness: -608.01, Maximum fitness: -121.26, Best scores: 0/5, Best scores: 0.00/3.29, Median fitness: -135.58, Variance: 20169.02
+seeds: [27374, 29360, 29294, 11183, 26422, 23023, 10348, 23638, 22091, 20550, 30934, 3209, 30223, 7832, 26827, 28361, 3413, 2488, 19667, 6363]
+gen: 18,	best of gen fitness: -124.811,	best of gen size: 22
+Average fitness: -156.58, Standard deviation: 93.62, Minimum fitness: -573.81, Maximum fitness: -124.81, Best scores: 0/5, Best scores: 0.00/3.38, Median fitness: -133.66, Variance: 8765.19
+seeds: [23458, 31373, 10762, 31528, 7543, 13371, 30087, 20071, 3267, 29883, 2888, 2007, 30882, 24872, 29940, 13494, 4225, 30624, 9505, 18845]
+gen: 19,	best of gen fitness: -118.541,	best of gen size: 30
+Average fitness: -176.98, Standard deviation: 142.01, Minimum fitness: -620.17, Maximum fitness: -118.54, Best scores: 0/5, Best scores: 0.00/2.78, Median fitness: -119.86, Variance: 20168.08
+seeds: [9891, 29574, 15610, 31338, 29469, 16551, 26068, 8949, 29102, 10177, 5234, 4310, 26579, 5684, 8814, 1414, 99, 19225, 22032, 16470]
+gen: 20,	best of gen fitness: -138.645,	best of gen size: 24
+Average fitness: -167.58, Standard deviation: 107.50, Minimum fitness: -789.12, Maximum fitness: -138.65, Best scores: 0/10, Best scores: 0.00/2.42, Median fitness: -138.65, Variance: 11557.24
+seeds: [27083, 9493, 18122, 23512, 1546, 29169, 18848, 26593, 23637, 15063, 21376, 16696, 21426, 3829, 17825, 5612, 25785, 16464, 27105, 25376]
+gen: 21,	best of gen fitness: -103.522,	best of gen size: 31
+Average fitness: -210.17, Standard deviation: 146.69, Minimum fitness: -611.97, Maximum fitness: -103.52, Best scores: 0/5, Best scores: 0.00/1.96, Median fitness: -127.41, Variance: 21518.10
+seeds: [12722, 6841, 8270, 187, 19524, 16151, 15437, 25660, 30329, 10027, 13300, 24008, 11814, 2965, 7036, 31461, 31574, 29316, 26402, 895]
+gen: 22,	best of gen fitness: -119.356,	best of gen size: 31
+Average fitness: -186.16, Standard deviation: 139.62, Minimum fitness: -654.14, Maximum fitness: -119.36, Best scores: 0/5, Best scores: 0.00/1.22, Median fitness: -134.89, Variance: 19494.97
+seeds: [14203, 5958, 574, 23924, 2468, 16986, 28954, 16897, 17882, 12558, 22084, 11107, 17306, 2748, 20532, 16357, 14044, 14346, 4275, 26213]
+gen: 23,	best of gen fitness: -107.323,	best of gen size: 31
+Average fitness: -149.69, Standard deviation: 137.60, Minimum fitness: -779.12, Maximum fitness: -107.32, Best scores: 0/5, Best scores: 0.00/1.97, Median fitness: -108.28, Variance: 18934.10
+seeds: [9965, 8403, 26502, 11617, 12882, 24814, 21491, 15719, 9944, 7179, 23789, 25940, 10796, 15797, 13059, 28189, 13470, 6736, 15934, 14666]
+gen: 24,	best of gen fitness: -103.346,	best of gen size: 31
+Average fitness: -143.55, Standard deviation: 159.28, Minimum fitness: -1102.11, Maximum fitness: -103.35, Best scores: 0/10, Best scores: 0.00/2.19, Median fitness: -103.35, Variance: 25370.38
+seeds: [10297, 8826, 28729, 2159, 21914, 9029, 4879, 27931, 4, 13203, 26710, 4961, 20696, 9264, 18018, 30789, 6262, 6141, 7891, 1586]
+gen: 25,	best of gen fitness: -106.006,	best of gen size: 31
+Average fitness: -162.49, Standard deviation: 161.89, Minimum fitness: -1078.22, Maximum fitness: -106.01, Best scores: 0/5, Best scores: 0.00/2.87, Median fitness: -123.90, Variance: 26209.98
+seeds: [18202, 1197, 6444, 20709, 15346, 10531, 131, 19630, 26753, 24755, 23621, 4847, 15670, 15798, 25194, 7878, 20327, 3994, 28950, 29388]
+gen: 26,	best of gen fitness: -96.417,	best of gen size: 31
+Average fitness: -97.99, Standard deviation: 2.51, Minimum fitness: -113.23, Maximum fitness: -96.42, Best scores: 0/5, Best scores: 0.00/2.68, Median fitness: -97.76, Variance: 6.28
+seeds: [5842, 29527, 25996, 16035, 9786, 21575, 22837, 15864, 16177, 24958, 6178, 6293, 10988, 3739, 27349, 16028, 19912, 3807, 25895, 15689]
+gen: 27,	best of gen fitness: -88.651,	best of gen size: 31
+Average fitness: -112.39, Standard deviation: 50.21, Minimum fitness: -450.70, Maximum fitness: -88.65, Best scores: 0/5, Best scores: 0.00/2.68, Median fitness: -103.04, Variance: 2521.49
+seeds: [31626, 2039, 17999, 11477, 26496, 12873, 28647, 10548, 23258, 11445, 23792, 9077, 20482, 6614, 14736, 16397, 20941, 6373, 26356, 31588]
+gen: 28,	best of gen fitness: -104.905,	best of gen size: 31
+Average fitness: -117.31, Standard deviation: 16.50, Minimum fitness: -143.00, Maximum fitness: -104.91, Best scores: 0/5, Best scores: 0.00/3.71, Median fitness: -106.75, Variance: 272.15
+seeds: [31524, 28445, 30939, 24495, 25733, 29425, 13575, 8875, 17398, 11732, 20819, 4485, 11026, 20540, 25462, 27365, 12521, 27193, 11911, 17956]
+gen: 29,	best of gen fitness: -99.744,	best of gen size: 28
+Average fitness: -111.70, Standard deviation: 10.21, Minimum fitness: -154.25, Maximum fitness: -99.74, Best scores: 0/5, Best scores: 0.00/2.47, Median fitness: -108.72, Variance: 104.24
+seeds: [26284, 28966, 17991, 30041, 7802, 27559, 8251, 27672, 23307, 30945, 17074, 1611, 21078, 13723, 12993, 28403, 27328, 25247, 2466, 30590]
+gen: 30,	best of gen fitness: -109.294,	best of gen size: 31
+Average fitness: -116.11, Standard deviation: 9.44, Minimum fitness: -161.59, Maximum fitness: -109.29, Best scores: 0/10, Best scores: 0.00/2.36, Median fitness: -114.89, Variance: 89.15
+seeds: [5581, 10144, 9617, 31769, 10137, 19352, 1391, 26028, 4328, 7939, 21050, 18983, 1401, 24835, 10508, 681, 17833, 21611, 20048, 5638]
+gen: 31,	best of gen fitness: -93.551,	best of gen size: 22
+Average fitness: -109.35, Standard deviation: 53.93, Minimum fitness: -468.69, Maximum fitness: -93.55, Best scores: 0/5, Best scores: 0.00/4.04, Median fitness: -97.57, Variance: 2908.33
+seeds: [18092, 16836, 11278, 2599, 8086, 322, 31031, 14534, 5035, 28496, 11792, 16608, 27754, 2792, 28462, 21538, 20685, 24117, 23550, 2010]
+gen: 32,	best of gen fitness: -111.147,	best of gen size: 31
+Average fitness: -234.51, Standard deviation: 224.46, Minimum fitness: -972.93, Maximum fitness: -111.15, Best scores: 0/5, Best scores: 0.00/1.54, Median fitness: -114.48, Variance: 50382.46
+seeds: [26943, 24829, 25742, 10312, 12115, 29646, 1170, 30799, 297, 31473, 10707, 18717, 28386, 4800, 25572, 6818, 17441, 5411, 5084, 26194]
+gen: 33,	best of gen fitness: -101.002,	best of gen size: 31
+Average fitness: -119.28, Standard deviation: 63.00, Minimum fitness: -523.02, Maximum fitness: -101.00, Best scores: 0/5, Best scores: 0.00/2.36, Median fitness: -108.78, Variance: 3968.38
+seeds: [3276, 7208, 20463, 444, 8910, 10282, 23641, 15461, 4732, 7079, 11515, 9131, 8401, 17482, 9537, 12259, 1502, 5409, 30385, 9652]
+gen: 34,	best of gen fitness: -112.729,	best of gen size: 31
+Average fitness: -146.07, Standard deviation: 131.27, Minimum fitness: -900.96, Maximum fitness: -112.73, Best scores: 0/5, Best scores: 0.00/1.86, Median fitness: -112.87, Variance: 17232.36
+seeds: [12964, 28371, 15128, 8807, 19287, 19714, 8928, 21298, 8836, 26754, 23110, 13858, 12836, 31109, 10972, 25203, 9385, 29411, 7164, 5190]
+gen: 35,	best of gen fitness: -87.497,	best of gen size: 27
+Average fitness: -108.26, Standard deviation: 17.16, Minimum fitness: -205.39, Maximum fitness: -87.50, Best scores: 0/5, Best scores: 0.00/2.05, Median fitness: -103.64, Variance: 294.49
+seeds: [3402, 16683, 18570, 30105, 28802, 27837, 6191, 23620, 7461, 2022, 14041, 24416, 22515, 22645, 23612, 15098, 19407, 23677, 22723, 12838]
+gen: 36,	best of gen fitness: -89.130,	best of gen size: 27
+Average fitness: -112.72, Standard deviation: 85.77, Minimum fitness: -692.38, Maximum fitness: -89.13, Best scores: 0/5, Best scores: 0.00/2.19, Median fitness: -103.77, Variance: 7356.30
+seeds: [29749, 3667, 29506, 29061, 3206, 28239, 7319, 19585, 19251, 7562, 18306, 25254, 20379, 20558, 21396, 5293, 19698, 23136, 15380, 12882]
+gen: 37,	best of gen fitness: -87.909,	best of gen size: 27
+Average fitness: -145.02, Standard deviation: 136.27, Minimum fitness: -648.49, Maximum fitness: -87.91, Best scores: 0/5, Best scores: 0.00/2.30, Median fitness: -107.52, Variance: 18570.69
+seeds: [9656, 23932, 20166, 24293, 10190, 8849, 12469, 3045, 12292, 2967, 5074, 15444, 19285, 1771, 27144, 21474, 26019, 17798, 9425, 24144]
+gen: 38,	best of gen fitness: -97.216,	best of gen size: 27
+Average fitness: -108.26, Standard deviation: 23.38, Minimum fitness: -211.52, Maximum fitness: -97.22, Best scores: 0/15, Best scores: 0.00/3.71, Median fitness: -97.22, Variance: 546.79
+seeds: [14387, 22368, 15276, 19875, 2126, 29125, 8378, 13804, 27336, 19781, 1784, 17360, 26901, 3738, 25548, 4205, 21484, 13323, 322, 24478]
+gen: 39,	best of gen fitness: -102.590,	best of gen size: 28
+Average fitness: -127.44, Standard deviation: 125.55, Minimum fitness: -976.47, Maximum fitness: -102.59, Best scores: 0/5, Best scores: 0.00/4.55, Median fitness: -103.83, Variance: 15762.28
+seeds: [31391, 30947, 1873, 235, 18011, 21660, 14599, 13550, 4599, 29030, 29448, 27261, 30835, 30464, 14404, 11455, 30162, 14487, 13175, 12636]
+gen: 40,	best of gen fitness: -74.409,	best of gen size: 29
+Average fitness: -123.60, Standard deviation: 208.15, Minimum fitness: -1439.59, Maximum fitness: -74.41, Best scores: 0/5, Best scores: 0.00/2.30, Median fitness: -78.27, Variance: 43328.23
+seeds: [1555, 22483, 887, 17646, 8620, 29794, 27626, 23986, 12651, 11296, 13275, 18643, 15793, 16500, 10393, 25909, 21451, 17752, 30321, 8201]
+gen: 41,	best of gen fitness: -103.846,	best of gen size: 28
+Average fitness: -120.02, Standard deviation: 64.81, Minimum fitness: -555.05, Maximum fitness: -103.85, Best scores: 0/5, Best scores: 0.00/2.82, Median fitness: -109.40, Variance: 4200.43
+seeds: [11208, 10322, 12363, 14256, 784, 4123, 21723, 27234, 30422, 23517, 5947, 16532, 16927, 13075, 18626, 28606, 1954, 31692, 4904, 12643]
+gen: 42,	best of gen fitness: -62.165,	best of gen size: 28
+Average fitness: -206.62, Standard deviation: 298.26, Minimum fitness: -1630.14, Maximum fitness: -62.16, Best scores: 0/5, Best scores: 0.00/2.95, Median fitness: -120.13, Variance: 88960.74
+seeds: [14989, 495, 25920, 14428, 4688, 23674, 2466, 191, 790, 28576, 19588, 1904, 7126, 30703, 4694, 9292, 13739, 1682, 26089, 26579]
+gen: 43,	best of gen fitness: -91.621,	best of gen size: 28
+Average fitness: -101.88, Standard deviation: 19.93, Minimum fitness: -231.47, Maximum fitness: -91.62, Best scores: 0/5, Best scores: 0.00/3.03, Median fitness: -98.72, Variance: 397.13
+seeds: [29937, 7928, 7550, 22585, 15112, 13269, 139, 28757, 2706, 19575, 2197, 16060, 23693, 640, 26933, 9691, 24531, 28511, 14777, 243]
+gen: 44,	best of gen fitness: -100.449,	best of gen size: 31
+Average fitness: -264.94, Standard deviation: 262.57, Minimum fitness: -978.85, Maximum fitness: -100.45, Best scores: 0/5, Best scores: 0.00/3.01, Median fitness: -110.13, Variance: 68945.28
+seeds: [3750, 19849, 25254, 8476, 26895, 18388, 26516, 23816, 732, 20651, 16316, 18980, 2757, 1860, 30150, 30739, 30955, 12811, 14656, 25397]
+gen: 45,	best of gen fitness: -88.156,	best of gen size: 29
+Average fitness: -128.44, Standard deviation: 118.89, Minimum fitness: -519.55, Maximum fitness: -88.16, Best scores: 0/5, Best scores: 0.00/3.18, Median fitness: -94.80, Variance: 14135.89
+seeds: [31116, 17763, 1790, 23521, 21190, 24886, 6152, 6212, 11573, 29447, 19286, 6019, 21032, 30774, 15740, 4231, 13604, 26061, 22912, 25495]
+gen: 46,	best of gen fitness: -87.686,	best of gen size: 28
+Average fitness: -146.51, Standard deviation: 195.99, Minimum fitness: -953.42, Maximum fitness: -87.69, Best scores: 0/10, Best scores: 0.00/3.79, Median fitness: -87.69, Variance: 38412.13
+seeds: [19933, 584, 19190, 18646, 13097, 25619, 6295, 5, 7471, 26290, 16322, 3079, 1674, 17039, 21474, 2677, 20217, 4232, 9772, 11912]
+gen: 47,	best of gen fitness: -102.510,	best of gen size: 29
+Average fitness: -214.13, Standard deviation: 269.71, Minimum fitness: -997.74, Maximum fitness: -102.51, Best scores: 0/5, Best scores: 0.00/4.12, Median fitness: -102.51, Variance: 72744.30
+seeds: [3526, 863, 9761, 29572, 25436, 26278, 23458, 30330, 24869, 12195, 26145, 17661, 21372, 12478, 3728, 9409, 3813, 24625, 15353, 2518]
+gen: 48,	best of gen fitness: -98.962,	best of gen size: 29
+Average fitness: -139.60, Standard deviation: 127.45, Minimum fitness: -581.84, Maximum fitness: -98.96, Best scores: 0/5, Best scores: 0.00/2.98, Median fitness: -98.96, Variance: 16242.98
+seeds: [20294, 25107, 34, 9483, 1334, 7864, 7907, 20014, 15167, 144, 6278, 458, 20502, 3556, 249, 19973, 440, 11584, 26996, 7517]
+gen: 49,	best of gen fitness: -86.967,	best of gen size: 29
+Average fitness: -142.17, Standard deviation: 157.82, Minimum fitness: -772.62, Maximum fitness: -86.97, Best scores: 0/10, Best scores: 0.00/2.42, Median fitness: -86.97, Variance: 24908.30
+seeds: [23018, 19977, 1541, 9539, 16743, 3675, 602, 16172, 23818, 25766, 18837, 7050, 22747, 28130, 6851, 7781, 5279, 23784, 14374, 11751]
+gen: 50,	best of gen fitness: -86.185,	best of gen size: 28
+Average fitness: -142.76, Standard deviation: 147.12, Minimum fitness: -554.49, Maximum fitness: -86.18, Best scores: 0/10, Best scores: 0.00/3.15, Median fitness: -86.18, Variance: 21643.64
+seeds: [29628, 2467, 2839, 3262, 12492, 31548, 19896, 23185, 27766, 27617, 7959, 14792, 13184, 13048, 8912, 6494, 12192, 26414, 16106, 17930]
+gen: 51,	best of gen fitness: -51.545,	best of gen size: 28
+Average fitness: -220.58, Standard deviation: 285.65, Minimum fitness: -1016.90, Maximum fitness: -51.54, Best scores: 0/5, Best scores: 0.00/2.42, Median fitness: -87.47, Variance: 81593.95
+seeds: [24753, 18289, 13449, 19369, 18253, 8889, 21831, 25318, 27323, 7661, 15738, 22910, 23745, 2689, 598, 30082, 8040, 5910, 27211, 31143]
+gen: 52,	best of gen fitness: -104.305,	best of gen size: 29
+Average fitness: -184.58, Standard deviation: 187.87, Minimum fitness: -777.05, Maximum fitness: -104.31, Best scores: 0/5, Best scores: 0.00/2.45, Median fitness: -106.86, Variance: 35295.01
+seeds: [13378, 16467, 21801, 15361, 21015, 18872, 28732, 31052, 13200, 11762, 8827, 15505, 4433, 24205, 26264, 1296, 18353, 2976, 8436, 30890]
+gen: 53,	best of gen fitness: -109.223,	best of gen size: 28
+Average fitness: -186.39, Standard deviation: 211.43, Minimum fitness: -944.09, Maximum fitness: -109.22, Best scores: 0/10, Best scores: 0.00/3.01, Median fitness: -109.22, Variance: 44703.18
+seeds: [20980, 30378, 4419, 14136, 29389, 13381, 26202, 19935, 305, 2647, 20671, 14736, 23146, 5907, 8637, 24888, 26862, 24508, 11828, 23846]
+gen: 54,	best of gen fitness: -80.276,	best of gen size: 29
+Average fitness: -135.19, Standard deviation: 168.49, Minimum fitness: -1073.97, Maximum fitness: -80.28, Best scores: 0/5, Best scores: 0.00/2.72, Median fitness: -89.90, Variance: 28388.71
+seeds: [6534, 23772, 21718, 5713, 20650, 20251, 12483, 15890, 28272, 29418, 12499, 589, 7659, 27183, 20103, 4965, 20999, 13758, 24412, 2011]
+gen: 55,	best of gen fitness: -94.462,	best of gen size: 29
+Average fitness: -112.86, Standard deviation: 67.21, Minimum fitness: -497.82, Maximum fitness: -94.46, Best scores: 0/10, Best scores: 0.00/3.41, Median fitness: -95.00, Variance: 4516.96
+seeds: [6909, 4823, 11851, 24946, 24398, 191, 23055, 28813, 1193, 20240, 21603, 3684, 25457, 5455, 5345, 1247, 30247, 31224, 3301, 23456]
+gen: 56,	best of gen fitness: -95.256,	best of gen size: 29
+Average fitness: -156.63, Standard deviation: 148.88, Minimum fitness: -556.59, Maximum fitness: -95.26, Best scores: 0/5, Best scores: 0.00/2.87, Median fitness: -95.26, Variance: 22165.83
+seeds: [21969, 16551, 29276, 28885, 22493, 29050, 8519, 25865, 31254, 8994, 11418, 9327, 17248, 2489, 5965, 21748, 7114, 11045, 28433, 21094]
+gen: 57,	best of gen fitness: -55.250,	best of gen size: 26
+Average fitness: -155.23, Standard deviation: 189.16, Minimum fitness: -1055.21, Maximum fitness: -55.25, Best scores: 0/5, Best scores: 0.00/2.63, Median fitness: -85.91, Variance: 35781.02
+seeds: [5081, 24245, 17656, 11948, 17265, 3177, 1489, 11304, 29001, 3728, 24470, 16602, 20414, 10113, 25444, 7404, 3739, 10956, 9454, 9319]
+gen: 58,	best of gen fitness: -68.440,	best of gen size: 29
+Average fitness: -174.85, Standard deviation: 201.08, Minimum fitness: -954.98, Maximum fitness: -68.44, Best scores: 0/5, Best scores: 0.00/2.68, Median fitness: -93.68, Variance: 40433.86
+seeds: [21626, 4824, 29384, 7165, 24504, 24869, 20770, 31015, 10447, 23362, 11387, 26281, 13792, 11001, 21472, 25100, 6535, 30174, 3239, 30158]
+gen: 59,	best of gen fitness: -63.414,	best of gen size: 28
+Average fitness: -153.82, Standard deviation: 182.14, Minimum fitness: -928.77, Maximum fitness: -63.41, Best scores: 0/5, Best scores: 0.00/3.05, Median fitness: -94.18, Variance: 33176.00
+seeds: [20443, 19876, 4854, 27853, 3180, 24385, 2624, 23992, 1221, 4311, 19048, 28271, 31693, 15929, 13447, 7445, 9281, 7988, 26157, 15325]
+gen: 60,	best of gen fitness: -87.333,	best of gen size: 28
+Average fitness: -211.54, Standard deviation: 291.97, Minimum fitness: -1205.73, Maximum fitness: -87.33, Best scores: 0/5, Best scores: 0.00/2.05, Median fitness: -87.33, Variance: 85248.68
+seeds: [15606, 14224, 11641, 1412, 26111, 25451, 8698, 2392, 9539, 4652, 31060, 29968, 7027, 7046, 3490, 10088, 645, 2026, 6114, 14342]
+gen: 61,	best of gen fitness: -74.729,	best of gen size: 27
+Average fitness: -138.50, Standard deviation: 186.14, Minimum fitness: -956.45, Maximum fitness: -74.73, Best scores: 0/5, Best scores: 0.00/3.36, Median fitness: -75.13, Variance: 34648.83
+seeds: [26338, 29188, 11085, 13514, 4360, 13500, 3050, 31501, 31434, 15684, 3948, 1816, 27793, 27407, 1045, 15839, 18155, 5200, 22126, 7272]
+gen: 62,	best of gen fitness: -66.856,	best of gen size: 29
+Average fitness: -124.14, Standard deviation: 152.44, Minimum fitness: -567.42, Maximum fitness: -66.86, Best scores: 0/5, Best scores: 0.00/2.66, Median fitness: -66.86, Variance: 23239.40
+seeds: [26937, 31350, 12900, 2916, 31565, 26974, 15819, 24906, 4654, 18024, 22319, 27851, 8389, 27458, 2187, 6727, 1786, 26527, 6347, 31138]
+gen: 63,	best of gen fitness: -84.142,	best of gen size: 27
+Average fitness: -155.42, Standard deviation: 209.61, Minimum fitness: -952.31, Maximum fitness: -84.14, Best scores: 0/10, Best scores: 0.00/3.45, Median fitness: -86.34, Variance: 43934.81
+seeds: [14118, 29595, 28042, 18823, 24304, 19186, 13190, 5500, 29958, 7725, 3599, 15599, 19370, 25497, 10936, 10, 13754, 12296, 30141, 25983]
+gen: 64,	best of gen fitness: -84.181,	best of gen size: 27
+Average fitness: -201.96, Standard deviation: 259.37, Minimum fitness: -1092.37, Maximum fitness: -84.18, Best scores: 0/5, Best scores: 0.00/3.12, Median fitness: -84.18, Variance: 67270.29
+seeds: [4483, 19822, 13121, 21931, 1480, 23171, 31001, 18974, 7270, 25006, 13767, 29152, 1097, 29733, 20667, 1555, 19206, 19793, 18770, 5562]
+gen: 65,	best of gen fitness: -69.813,	best of gen size: 31
+Average fitness: -140.81, Standard deviation: 213.19, Minimum fitness: -1319.95, Maximum fitness: -69.81, Best scores: 0/10, Best scores: 0.00/2.36, Median fitness: -70.90, Variance: 45449.67
+seeds: [12865, 21068, 8666, 3358, 26629, 15902, 13235, 21715, 17225, 20825, 3404, 9765, 28284, 23982, 30687, 22546, 30570, 27061, 29221, 13483]
+gen: 66,	best of gen fitness: -71.445,	best of gen size: 27
+Average fitness: -142.61, Standard deviation: 185.69, Minimum fitness: -976.44, Maximum fitness: -71.44, Best scores: 0/5, Best scores: 0.00/3.50, Median fitness: -71.85, Variance: 34480.82
+seeds: [8470, 27829, 26357, 13492, 7270, 748, 28766, 23740, 8957, 2386, 2432, 160, 15759, 2290, 28927, 15316, 8033, 3760, 26532, 15200]
+gen: 67,	best of gen fitness: -56.288,	best of gen size: 31
+Average fitness: -112.06, Standard deviation: 139.29, Minimum fitness: -565.08, Maximum fitness: -56.29, Best scores: 0/5, Best scores: 0.00/2.42, Median fitness: -63.60, Variance: 19401.99
+seeds: [1596, 1474, 14200, 15022, 16663, 2042, 6794, 29313, 14723, 24388, 2195, 6987, 7143, 24044, 10905, 26322, 7816, 4630, 17993, 160]
+gen: 68,	best of gen fitness: -76.355,	best of gen size: 31
+Average fitness: -185.81, Standard deviation: 307.57, Minimum fitness: -1297.38, Maximum fitness: -76.36, Best scores: 0/5, Best scores: 0.00/3.29, Median fitness: -77.94, Variance: 94600.55
+seeds: [23433, 7086, 3159, 25010, 2664, 469, 14127, 19041, 17671, 26300, 22342, 21506, 8926, 15170, 17611, 6464, 27726, 27651, 14047, 5213]
+gen: 69,	best of gen fitness: -48.746,	best of gen size: 29
+Average fitness: -135.86, Standard deviation: 218.15, Minimum fitness: -739.68, Maximum fitness: -48.75, Best scores: 0/5, Best scores: 0.00/3.25, Median fitness: -49.35, Variance: 47587.89
+seeds: [11038, 6038, 587, 28768, 2833, 6597, 15830, 13963, 10143, 24654, 4318, 19932, 23170, 28007, 22678, 10226, 31656, 31781, 10621, 26426]
+gen: 70,	best of gen fitness: -66.807,	best of gen size: 27
+Average fitness: -96.70, Standard deviation: 89.82, Minimum fitness: -475.76, Maximum fitness: -66.81, Best scores: 0/5, Best scores: 0.00/2.82, Median fitness: -66.81, Variance: 8066.91
+seeds: [17545, 22369, 18915, 15492, 18440, 19420, 5465, 23523, 13315, 2504, 8765, 25809, 12605, 20480, 18273, 8430, 28161, 31480, 12253, 28028]
+gen: 71,	best of gen fitness: -78.628,	best of gen size: 27
+Average fitness: -166.29, Standard deviation: 253.45, Minimum fitness: -1135.21, Maximum fitness: -78.63, Best scores: 0/5, Best scores: 0.00/4.38, Median fitness: -78.63, Variance: 64238.02
+seeds: [16866, 24668, 21334, 9075, 14524, 24666, 30341, 4384, 3016, 26536, 11373, 17121, 28862, 16221, 1566, 25703, 31379, 5380, 16420, 23968]
+gen: 72,	best of gen fitness: -83.523,	best of gen size: 27
+Average fitness: -121.02, Standard deviation: 118.08, Minimum fitness: -554.73, Maximum fitness: -83.52, Best scores: 0/5, Best scores: 0.00/4.58, Median fitness: -85.74, Variance: 13943.50
+seeds: [15034, 7025, 9152, 19098, 6072, 5722, 18006, 21618, 8025, 21427, 26396, 22632, 6826, 2902, 28552, 12435, 15243, 26475, 21538, 13230]
+gen: 73,	best of gen fitness: -49.823,	best of gen size: 27
+Average fitness: -197.67, Standard deviation: 326.11, Minimum fitness: -1196.62, Maximum fitness: -49.82, Best scores: 0/5, Best scores: 0.00/3.82, Median fitness: -69.90, Variance: 106346.06
+seeds: [5375, 27278, 28840, 6077, 10163, 2875, 27814, 17438, 21708, 1035, 8045, 7983, 16083, 2620, 17785, 31546, 24487, 27723, 28532, 23927]
+gen: 74,	best of gen fitness: -79.479,	best of gen size: 29
+Average fitness: -109.67, Standard deviation: 159.08, Minimum fitness: -1164.94, Maximum fitness: -79.48, Best scores: 0/10, Best scores: 0.00/2.38, Median fitness: -79.48, Variance: 25304.91
+seeds: [25556, 6108, 15185, 2363, 15993, 14678, 2233, 31708, 23814, 12678, 24903, 6073, 28795, 11566, 2389, 9994, 8291, 20693, 18604, 6393]
+gen: 75,	best of gen fitness: -56.882,	best of gen size: 27
+Average fitness: -163.32, Standard deviation: 201.68, Minimum fitness: -793.96, Maximum fitness: -56.88, Best scores: 0/5, Best scores: 0.00/3.22, Median fitness: -65.07, Variance: 40676.13
+seeds: [16396, 23522, 7098, 31505, 5187, 27606, 31021, 15251, 18547, 19606, 20125, 21981, 31585, 26570, 10903, 3101, 806, 1542, 11916, 7693]
+gen: 76,	best of gen fitness: -61.307,	best of gen size: 30
+Average fitness: -171.83, Standard deviation: 217.40, Minimum fitness: -771.83, Maximum fitness: -61.31, Best scores: 0/5, Best scores: 0.00/3.09, Median fitness: -63.95, Variance: 47264.33
+seeds: [25424, 13037, 2902, 104, 10405, 27095, 13360, 12288, 6798, 12366, 12732, 23858, 6161, 23907, 22072, 12935, 27442, 9922, 20446, 10677]
+gen: 77,	best of gen fitness: -49.375,	best of gen size: 27
+Average fitness: -164.83, Standard deviation: 274.31, Minimum fitness: -1085.24, Maximum fitness: -49.37, Best scores: 0/10, Best scores: 0.00/5.26, Median fitness: -63.47, Variance: 75246.86
+seeds: [4810, 5980, 12652, 18099, 9638, 28240, 8292, 23126, 24728, 6889, 7847, 16717, 18624, 6182, 10407, 17019, 27289, 3563, 14141, 18576]
+gen: 78,	best of gen fitness: -79.846,	best of gen size: 27
+Average fitness: -198.83, Standard deviation: 247.42, Minimum fitness: -764.74, Maximum fitness: -79.85, Best scores: 0/5, Best scores: 0.00/4.93, Median fitness: -84.89, Variance: 61215.67
+seeds: [10441, 31188, 3304, 12522, 1901, 27319, 10509, 18743, 860, 17422, 6533, 23051, 5275, 6377, 10872, 30346, 22357, 30741, 2661, 26113]
+gen: 79,	best of gen fitness: -62.501,	best of gen size: 30
+Average fitness: -132.38, Standard deviation: 163.95, Minimum fitness: -567.86, Maximum fitness: -62.50, Best scores: 0/5, Best scores: 0.00/3.45, Median fitness: -67.57, Variance: 26881.12
+seeds: [22327, 25618, 3251, 11469, 31472, 21627, 7873, 5389, 3512, 21444, 12520, 8530, 20290, 2876, 14699, 16829, 19396, 28749, 7347, 5366]
+gen: 80,	best of gen fitness: -63.500,	best of gen size: 30
+Average fitness: -232.24, Standard deviation: 361.69, Minimum fitness: -1313.62, Maximum fitness: -63.50, Best scores: 0/10, Best scores: 0.00/2.30, Median fitness: -73.65, Variance: 130822.58
+seeds: [26609, 3373, 2055, 9678, 17974, 1886, 4749, 20129, 30043, 15860, 19332, 17883, 9665, 31183, 16437, 14867, 2971, 22459, 15584, 24224]
+gen: 81,	best of gen fitness: -43.659,	best of gen size: 31
+Average fitness: -244.95, Standard deviation: 309.36, Minimum fitness: -917.26, Maximum fitness: -43.66, Best scores: 0/5, Best scores: 0.00/3.61, Median fitness: -83.65, Variance: 95701.98
+seeds: [13476, 6620, 16911, 5513, 21424, 12743, 16319, 28711, 11806, 12334, 12199, 27543, 21388, 3953, 26301, 18721, 30762, 20608, 28527, 13437]
+gen: 82,	best of gen fitness: -78.809,	best of gen size: 31
+Average fitness: -135.57, Standard deviation: 129.07, Minimum fitness: -688.05, Maximum fitness: -78.81, Best scores: 0/5, Best scores: 0.00/3.57, Median fitness: -96.23, Variance: 16660.34
+seeds: [18713, 26359, 21843, 11077, 10988, 7743, 26724, 29605, 13936, 8622, 19915, 12053, 17290, 1722, 12694, 26411, 22027, 12154, 19984, 6054]
+gen: 83,	best of gen fitness: -29.254,	best of gen size: 30
+Average fitness: -144.02, Standard deviation: 252.80, Minimum fitness: -860.25, Maximum fitness: -29.25, Best scores: 0/5, Best scores: 0.00/2.23, Median fitness: -53.46, Variance: 63906.68
+seeds: [12970, 3594, 25353, 20494, 3763, 4865, 20960, 20183, 4297, 29109, 6923, 27285, 5707, 11218, 4945, 12468, 5205, 20538, 31826, 12344]
+gen: 84,	best of gen fitness: -69.595,	best of gen size: 30
+Average fitness: -262.02, Standard deviation: 429.20, Minimum fitness: -1415.09, Maximum fitness: -69.60, Best scores: 0/5, Best scores: 0.00/1.88, Median fitness: -70.70, Variance: 184214.80
+seeds: [1993, 15792, 6852, 30315, 31282, 8725, 18832, 8225, 18204, 17445, 27298, 11870, 31971, 3499, 27512, 22318, 14653, 22226, 28843, 4359]
+gen: 85,	best of gen fitness: -66.607,	best of gen size: 31
+Average fitness: -233.00, Standard deviation: 330.65, Minimum fitness: -1152.06, Maximum fitness: -66.61, Best scores: 0/5, Best scores: 0.00/2.45, Median fitness: -67.30, Variance: 109331.02
+seeds: [29901, 3636, 15364, 29170, 10287, 924, 9604, 26182, 27282, 27368, 28255, 2666, 30232, 4301, 4800, 20927, 1391, 18324, 24527, 10378]
+gen: 86,	best of gen fitness: -98.339,	best of gen size: 31
+Average fitness: -229.14, Standard deviation: 291.93, Minimum fitness: -1010.54, Maximum fitness: -98.34, Best scores: 0/5, Best scores: 0.00/3.47, Median fitness: -101.12, Variance: 85224.46
+seeds: [13789, 14733, 26850, 12640, 9293, 4136, 18883, 15973, 25293, 3195, 4696, 8264, 28155, 12908, 18054, 30568, 21113, 30514, 20939, 19890]
+gen: 87,	best of gen fitness: -59.434,	best of gen size: 31
+Average fitness: -258.48, Standard deviation: 387.18, Minimum fitness: -1503.60, Maximum fitness: -59.43, Best scores: 0/5, Best scores: 0.00/1.88, Median fitness: -68.86, Variance: 149910.12
+seeds: [23119, 8493, 19182, 8528, 20452, 2351, 4290, 24769, 15815, 11896, 26200, 20777, 31695, 189, 30279, 31775, 3200, 988, 13487, 10419]
+gen: 88,	best of gen fitness: -82.193,	best of gen size: 30
+Average fitness: -298.24, Standard deviation: 332.02, Minimum fitness: -1053.10, Maximum fitness: -82.19, Best scores: 0/5, Best scores: 0.00/2.76, Median fitness: -92.89, Variance: 110240.44
+seeds: [9014, 16934, 6237, 431, 11478, 5686, 7144, 14739, 86, 30815, 5594, 10579, 13719, 6382, 1944, 30580, 26057, 16631, 5665, 13520]
+gen: 89,	best of gen fitness: -57.735,	best of gen size: 31
+Average fitness: -129.15, Standard deviation: 240.77, Minimum fitness: -1239.44, Maximum fitness: -57.74, Best scores: 0/5, Best scores: 0.00/2.87, Median fitness: -83.00, Variance: 57972.58
+seeds: [9583, 7933, 4470, 21588, 2503, 5142, 12255, 1149, 23046, 21572, 2987, 6552, 8918, 27326, 4944, 22227, 24216, 11056, 28736, 23536]
+gen: 90,	best of gen fitness: -50.078,	best of gen size: 30
+Average fitness: -141.66, Standard deviation: 171.75, Minimum fitness: -680.15, Maximum fitness: -50.08, Best scores: 0/5, Best scores: 0.00/3.47, Median fitness: -82.94, Variance: 29498.44
+seeds: [10503, 3391, 22008, 3949, 8712, 8592, 18233, 26147, 15801, 4943, 3533, 26136, 29695, 14771, 22506, 31731, 28762, 30061, 15264, 8913]
+gen: 91,	best of gen fitness: -34.775,	best of gen size: 31
+Average fitness: -177.66, Standard deviation: 314.27, Minimum fitness: -1297.22, Maximum fitness: -34.77, Best scores: 0/5, Best scores: 0.00/2.96, Median fitness: -78.62, Variance: 98767.94
+seeds: [5123, 5639, 665, 21290, 23738, 6610, 12633, 8392, 19440, 26813, 9426, 28950, 12539, 16446, 17528, 10792, 25017, 28083, 10921, 15334]
+gen: 92,	best of gen fitness: -87.658,	best of gen size: 31
+Average fitness: -118.69, Standard deviation: 119.04, Minimum fitness: -682.32, Maximum fitness: -87.66, Best scores: 0/5, Best scores: 0.00/4.73, Median fitness: -90.19, Variance: 14169.97
+seeds: [30424, 2775, 13804, 2738, 1277, 21624, 706, 10547, 26471, 19177, 24811, 5856, 11064, 12304, 30644, 27376, 17084, 21691, 1023, 8104]
+gen: 93,	best of gen fitness: -54.565,	best of gen size: 31
+Average fitness: -133.97, Standard deviation: 245.58, Minimum fitness: -1104.78, Maximum fitness: -54.57, Best scores: 0/5, Best scores: 0.00/3.03, Median fitness: -54.57, Variance: 60307.72
+seeds: [23874, 7956, 20939, 30369, 9850, 779, 25055, 20968, 21082, 10312, 6904, 25921, 1138, 18679, 17932, 26745, 5100, 8291, 12563, 26737]
+gen: 94,	best of gen fitness: -74.595,	best of gen size: 31
+Average fitness: -125.95, Standard deviation: 171.01, Minimum fitness: -826.99, Maximum fitness: -74.59, Best scores: 0/5, Best scores: 0.00/3.86, Median fitness: -74.59, Variance: 29243.96
+seeds: [25937, 29775, 19866, 21054, 19957, 14355, 17520, 2760, 12454, 9580, 5232, 4365, 19637, 4672, 27590, 11275, 12700, 22621, 31688, 17880]
+gen: 95,	best of gen fitness: -53.175,	best of gen size: 31
+Average fitness: -73.25, Standard deviation: 88.15, Minimum fitness: -660.63, Maximum fitness: -53.18, Best scores: 0/5, Best scores: 0.00/4.61, Median fitness: -55.10, Variance: 7770.04
+seeds: [25918, 27734, 2231, 12101, 30078, 23657, 2005, 13119, 26345, 7567, 30235, 5557, 5221, 28305, 12, 10413, 11875, 22183, 17738, 16743]
+gen: 96,	best of gen fitness: -115.646,	best of gen size: 31
+Average fitness: -189.38, Standard deviation: 159.05, Minimum fitness: -776.26, Maximum fitness: -115.65, Best scores: 0/5, Best scores: 0.00/4.49, Median fitness: -142.75, Variance: 25296.20
+seeds: [4604, 10926, 11749, 11784, 31426, 17483, 3094, 24, 10260, 16028, 31780, 26692, 9879, 1827, 22567, 11876, 15796, 28936, 15369, 16841]
+gen: 97,	best of gen fitness: -71.918,	best of gen size: 31
+Average fitness: -99.20, Standard deviation: 84.18, Minimum fitness: -596.71, Maximum fitness: -71.92, Best scores: 0/5, Best scores: 0.00/3.15, Median fitness: -72.14, Variance: 7085.75
+seeds: [8605, 30740, 4777, 13137, 14015, 16483, 2825, 20730, 22521, 21985, 23962, 19421, 4790, 13557, 19113, 18713, 18929, 4674, 24303, 13915]
+gen: 98,	best of gen fitness: -53.564,	best of gen size: 31
+Average fitness: -125.15, Standard deviation: 206.59, Minimum fitness: -961.72, Maximum fitness: -53.56, Best scores: 0/5, Best scores: 0.00/5.04, Median fitness: -60.45, Variance: 42679.31
+seeds: [13807, 12842, 1680, 13879, 22908, 13886, 24765, 1107, 5209, 2834, 5163, 21291, 25755, 23879, 20214, 27659, 3568, 3487, 19762, 1161]
+gen: 99,	best of gen fitness: -66.162,	best of gen size: 31
+Average fitness: -125.95, Standard deviation: 139.41, Minimum fitness: -544.63, Maximum fitness: -66.16, Best scores: 0/5, Best scores: 0.00/5.46, Median fitness: -73.54, Variance: 19436.25
+seeds: [5806, 1058, 16745, 12335, 4033, 25061, 24775, 19012, 864, 9851, 27077, 5991, 3500, 27242, 16132, 10040, 6348, 23265, 16334, 28852]
+gen: 100,	best of gen fitness: -61.785,	best of gen size: 31
+Average fitness: -117.46, Standard deviation: 174.76, Minimum fitness: -995.34, Maximum fitness: -61.78, Best scores: 0/5, Best scores: 0.00/4.15, Median fitness: -61.78, Variance: 30540.62
+seeds: [23600, 25195, 3039, 14852, 10452, 29632, 13803, 24783, 3867, 11271, 19053, 21254, 26356, 17018, 26578, 6771, 22163, 26064, 19596, 3621]
+gen: 101,	best of gen fitness: -80.713,	best of gen size: 31
+Average fitness: -187.43, Standard deviation: 241.43, Minimum fitness: -824.10, Maximum fitness: -80.71, Best scores: 0/5, Best scores: 0.00/2.82, Median fitness: -80.71, Variance: 58290.15
+seeds: [13432, 10910, 23083, 22681, 21982, 21475, 16988, 4188, 3650, 17629, 9457, 29220, 27404, 27822, 11161, 26993, 16052, 31734, 31759, 17325]
+gen: 102,	best of gen fitness: -70.421,	best of gen size: 31
+Average fitness: -157.48, Standard deviation: 171.33, Minimum fitness: -689.69, Maximum fitness: -70.42, Best scores: 0/5, Best scores: 0.00/2.76, Median fitness: -76.02, Variance: 29354.28
+seeds: [28121, 1746, 8893, 13466, 310, 22521, 22526, 30332, 22617, 19578, 1892, 1312, 11708, 9410, 31591, 6287, 4990, 1343, 12557, 1807]
+gen: 103,	best of gen fitness: -48.195,	best of gen size: 31
+Average fitness: -179.51, Standard deviation: 358.72, Minimum fitness: -1362.07, Maximum fitness: -48.19, Best scores: 0/10, Best scores: 0.00/3.55, Median fitness: -50.14, Variance: 128683.06
+seeds: [12917, 23915, 29939, 6206, 21874, 5471, 18965, 12280, 6822, 3379, 14656, 15689, 16444, 26481, 2713, 15684, 18981, 25153, 1694, 16894]
+gen: 104,	best of gen fitness: -73.280,	best of gen size: 31
+Average fitness: -86.78, Standard deviation: 56.94, Minimum fitness: -472.24, Maximum fitness: -73.28, Best scores: 0/5, Best scores: 0.00/5.31, Median fitness: -78.40, Variance: 3242.14
+seeds: [27651, 10500, 7733, 11741, 1026, 15870, 20168, 18022, 4369, 28438, 5772, 27384, 6862, 11348, 6733, 28827, 15304, 6605, 23771, 23925]
+gen: 105,	best of gen fitness: -66.065,	best of gen size: 31
+Average fitness: -133.73, Standard deviation: 144.81, Minimum fitness: -527.20, Maximum fitness: -66.07, Best scores: 0/5, Best scores: 0.00/2.87, Median fitness: -93.92, Variance: 20971.15
+seeds: [31407, 25719, 25487, 2936, 9556, 5848, 10053, 7845, 31591, 29760, 6232, 17275, 24197, 16632, 248, 26626, 29030, 29343, 16922, 25526]
+gen: 106,	best of gen fitness: -55.446,	best of gen size: 31
+Average fitness: -126.09, Standard deviation: 187.08, Minimum fitness: -982.14, Maximum fitness: -55.45, Best scores: 0/5, Best scores: 0.00/3.05, Median fitness: -55.45, Variance: 34997.06
+seeds: [1575, 24836, 8205, 17026, 9464, 7045, 28439, 1121, 10710, 5253, 14281, 11540, 17993, 12996, 2824, 24182, 3064, 30879, 7692, 28690]
+gen: 107,	best of gen fitness: -56.377,	best of gen size: 31
+Average fitness: -146.87, Standard deviation: 191.16, Minimum fitness: -614.56, Maximum fitness: -56.38, Best scores: 0/5, Best scores: 0.00/3.81, Median fitness: -56.38, Variance: 36541.42
+seeds: [30748, 25065, 24129, 29818, 5823, 1529, 13165, 7912, 6152, 1306, 10722, 13672, 28165, 3460, 23399, 7161, 21650, 28574, 25494, 24170]
+gen: 108,	best of gen fitness: -59.266,	best of gen size: 31
+Average fitness: -184.44, Standard deviation: 261.27, Minimum fitness: -902.47, Maximum fitness: -59.27, Best scores: 0/10, Best scores: 0.00/2.23, Median fitness: -59.27, Variance: 68262.03
+seeds: [7044, 16358, 12151, 497, 26640, 25095, 1906, 28105, 5903, 25526, 25246, 8552, 13756, 27745, 31731, 9697, 2273, 28847, 11529, 3662]
+gen: 109,	best of gen fitness: -58.838,	best of gen size: 31
+Average fitness: -143.68, Standard deviation: 216.50, Minimum fitness: -974.65, Maximum fitness: -58.84, Best scores: 0/5, Best scores: 0.00/2.78, Median fitness: -58.84, Variance: 46872.55
+seeds: [29783, 19204, 7370, 24994, 19787, 29587, 12220, 17776, 26122, 25304, 484, 20821, 25715, 23414, 7919, 23881, 6417, 3316, 19164, 6632]
+gen: 110,	best of gen fitness: -85.405,	best of gen size: 31
+Average fitness: -127.71, Standard deviation: 159.73, Minimum fitness: -984.62, Maximum fitness: -85.40, Best scores: 0/5, Best scores: 0.00/3.22, Median fitness: -85.40, Variance: 25513.69
+seeds: [2573, 26597, 3387, 3025, 30387, 11022, 8179, 17828, 29123, 14163, 2158, 22831, 15160, 8501, 11151, 26658, 684, 7222, 11382, 24730]
+gen: 111,	best of gen fitness: -65.493,	best of gen size: 30
+Average fitness: -110.71, Standard deviation: 185.53, Minimum fitness: -1260.78, Maximum fitness: -65.49, Best scores: 0/5, Best scores: 0.00/3.07, Median fitness: -74.80, Variance: 34421.40
+seeds: [21325, 7228, 7142, 27118, 18211, 15082, 23307, 21685, 3150, 8095, 4736, 20696, 27199, 28883, 15508, 28398, 31412, 14294, 14275, 27616]
+gen: 112,	best of gen fitness: -90.756,	best of gen size: 31
+Average fitness: -134.39, Standard deviation: 93.03, Minimum fitness: -638.69, Maximum fitness: -90.76, Best scores: 0/5, Best scores: 0.00/3.60, Median fitness: -107.63, Variance: 8654.62
+seeds: [31834, 24684, 14413, 11333, 17396, 1374, 4548, 10525, 12936, 17266, 19313, 4378, 31589, 9832, 28042, 5385, 14873, 10030, 4234, 2738]
+gen: 113,	best of gen fitness: -74.171,	best of gen size: 31
+Average fitness: -208.84, Standard deviation: 372.92, Minimum fitness: -1474.08, Maximum fitness: -74.17, Best scores: 0/5, Best scores: 0.00/3.65, Median fitness: -74.17, Variance: 139070.27
+seeds: [12703, 15121, 31421, 10933, 17461, 22532, 14860, 18791, 14672, 16597, 27885, 18483, 27638, 20547, 21501, 18698, 2401, 1905, 9275, 22531]
+gen: 114,	best of gen fitness: -79.689,	best of gen size: 30
+Average fitness: -92.35, Standard deviation: 60.82, Minimum fitness: -502.89, Maximum fitness: -79.69, Best scores: 0/5, Best scores: 0.00/3.07, Median fitness: -82.06, Variance: 3698.57
+seeds: [5872, 950, 26897, 10474, 1338, 1374, 16308, 26819, 3439, 6726, 7815, 8317, 14204, 8453, 7597, 4655, 11169, 21516, 23679, 9438]
+gen: 115,	best of gen fitness: -46.202,	best of gen size: 31
+Average fitness: -127.32, Standard deviation: 162.70, Minimum fitness: -570.67, Maximum fitness: -46.20, Best scores: 0/5, Best scores: 0.00/3.25, Median fitness: -83.65, Variance: 26471.08
+seeds: [5184, 31422, 7223, 31175, 29851, 14781, 30338, 3360, 22237, 21790, 29600, 18849, 15946, 10072, 5045, 28746, 5073, 13839, 24815, 18740]
+gen: 116,	best of gen fitness: -63.397,	best of gen size: 31
+Average fitness: -216.07, Standard deviation: 324.97, Minimum fitness: -1158.00, Maximum fitness: -63.40, Best scores: 0/10, Best scores: 0.00/2.05, Median fitness: -84.98, Variance: 105607.44
+seeds: [12326, 18360, 16692, 24310, 24640, 26216, 15041, 12402, 26132, 8851, 25155, 5595, 5963, 10053, 26561, 27563, 4509, 27405, 2259, 7790]
+gen: 117,	best of gen fitness: -48.080,	best of gen size: 31
+Average fitness: -162.59, Standard deviation: 274.93, Minimum fitness: -963.26, Maximum fitness: -48.08, Best scores: 0/10, Best scores: 0.00/3.57, Median fitness: -48.08, Variance: 75588.44
+seeds: [24607, 28801, 26783, 17927, 17354, 8998, 5651, 16604, 3499, 12043, 540, 31150, 24439, 13359, 28655, 5916, 5933, 14521, 13038, 10514]
+gen: 118,	best of gen fitness: -102.506,	best of gen size: 30
+Average fitness: -165.22, Standard deviation: 188.81, Minimum fitness: -881.45, Maximum fitness: -102.51, Best scores: 0/5, Best scores: 0.00/3.88, Median fitness: -108.49, Variance: 35650.14
+seeds: [14572, 1309, 12066, 14684, 22647, 28797, 3839, 3615, 23833, 28754, 17936, 24086, 4104, 12663, 27273, 26456, 24332, 18616, 16776, 28544]
+gen: 119,	best of gen fitness: -78.412,	best of gen size: 31
+Average fitness: -163.48, Standard deviation: 232.40, Minimum fitness: -1087.06, Maximum fitness: -78.41, Best scores: 0/10, Best scores: 0.00/3.45, Median fitness: -78.58, Variance: 54011.55
+seeds: [10546, 28984, 1478, 24504, 2519, 25465, 19391, 1052, 22751, 9220, 18729, 30717, 28388, 22236, 18797, 1185, 12937, 10678, 4849, 12426]
+gen: 120,	best of gen fitness: -64.150,	best of gen size: 31
+Average fitness: -127.13, Standard deviation: 178.83, Minimum fitness: -737.00, Maximum fitness: -64.15, Best scores: 0/15, Best scores: 0.00/4.24, Median fitness: -64.15, Variance: 31980.04
+seeds: [25885, 12149, 4917, 10607, 26019, 5099, 13944, 27493, 29914, 25141, 26339, 5147, 28897, 21052, 28647, 3777, 25309, 5504, 8197, 6712]
+gen: 121,	best of gen fitness: -76.486,	best of gen size: 30
+Average fitness: -233.85, Standard deviation: 335.20, Minimum fitness: -1265.47, Maximum fitness: -76.49, Best scores: 0/10, Best scores: 0.00/3.74, Median fitness: -76.49, Variance: 112359.61
+seeds: [27869, 13920, 26848, 16867, 29700, 28144, 7100, 8665, 1579, 16103, 13530, 6859, 175, 16967, 14362, 26166, 13564, 2841, 6696, 1025]
+gen: 122,	best of gen fitness: -62.029,	best of gen size: 31
+Average fitness: -128.71, Standard deviation: 259.94, Minimum fitness: -1431.41, Maximum fitness: -62.03, Best scores: 0/10, Best scores: 0.00/4.84, Median fitness: -62.03, Variance: 67570.06
+seeds: [20382, 9123, 17888, 27277, 12919, 25002, 7649, 3408, 10692, 17632, 2843, 27229, 1872, 25788, 13593, 1923, 20080, 13823, 21603, 19438]
+gen: 123,	best of gen fitness: -98.360,	best of gen size: 30
+Average fitness: -119.38, Standard deviation: 82.10, Minimum fitness: -476.13, Maximum fitness: -98.36, Best scores: 0/10, Best scores: 0.00/3.85, Median fitness: -98.36, Variance: 6740.14
+seeds: [1193, 17216, 6714, 1528, 18680, 23246, 10383, 16977, 22952, 7365, 21750, 29126, 16642, 7259, 6789, 20878, 6927, 6330, 3043, 13683]
+gen: 124,	best of gen fitness: -69.324,	best of gen size: 30
+Average fitness: -97.40, Standard deviation: 106.34, Minimum fitness: -504.40, Maximum fitness: -69.32, Best scores: 0/5, Best scores: 0.00/2.52, Median fitness: -69.32, Variance: 11307.77
+seeds: [2508, 30404, 16214, 11444, 23436, 4178, 31594, 17341, 21738, 21513, 12002, 1471, 22973, 26490, 13813, 27853, 16641, 29335, 7556, 29248]
+gen: 125,	best of gen fitness: -88.033,	best of gen size: 31
+Average fitness: -166.29, Standard deviation: 168.55, Minimum fitness: -805.97, Maximum fitness: -88.03, Best scores: 0/5, Best scores: 0.00/2.36, Median fitness: -109.35, Variance: 28409.95
+seeds: [27051, 20887, 20020, 23949, 29591, 30628, 25708, 27512, 26152, 12110, 4428, 27619, 27151, 1814, 29019, 18883, 25827, 23224, 24328, 20496]
+gen: 126,	best of gen fitness: -62.693,	best of gen size: 31
+Average fitness: -159.94, Standard deviation: 218.49, Minimum fitness: -934.27, Maximum fitness: -62.69, Best scores: 0/5, Best scores: 0.00/3.01, Median fitness: -77.00, Variance: 47738.71
+seeds: [23921, 8192, 13191, 22726, 9097, 4428, 30121, 1879, 21364, 1613, 15817, 18086, 1857, 19544, 2153, 17846, 31188, 23973, 15786, 7021]
+gen: 127,	best of gen fitness: -65.021,	best of gen size: 31
+Average fitness: -105.51, Standard deviation: 194.18, Minimum fitness: -1330.07, Maximum fitness: -65.02, Best scores: 0/10, Best scores: 0.00/3.66, Median fitness: -65.02, Variance: 37704.90
+seeds: [20901, 19245, 20466, 18882, 13679, 28015, 17883, 29940, 15336, 9552, 404, 410, 3751, 727, 228, 2094, 24553, 29496, 8725, 7213]
+gen: 128,	best of gen fitness: -61.238,	best of gen size: 31
+Average fitness: -137.50, Standard deviation: 171.77, Minimum fitness: -801.00, Maximum fitness: -61.24, Best scores: 0/5, Best scores: 0.00/4.72, Median fitness: -73.49, Variance: 29504.52
+seeds: [20533, 2737, 26100, 4534, 4741, 26638, 10253, 17886, 22190, 28249, 20076, 8713, 20044, 20229, 8598, 26136, 17472, 30551, 13551, 18452]
+gen: 129,	best of gen fitness: -52.624,	best of gen size: 31
+Average fitness: -143.59, Standard deviation: 245.94, Minimum fitness: -1120.29, Maximum fitness: -52.62, Best scores: 0/5, Best scores: 0.00/4.94, Median fitness: -61.38, Variance: 60484.61
+seeds: [23712, 6454, 19826, 5758, 27564, 21064, 2580, 14502, 21269, 4661, 49, 5374, 14625, 9287, 29811, 3522, 11190, 5011, 22276, 28544]
+gen: 130,	best of gen fitness: -66.268,	best of gen size: 31
+Average fitness: -79.75, Standard deviation: 47.51, Minimum fitness: -396.63, Maximum fitness: -66.27, Best scores: 0/5, Best scores: 0.00/4.09, Median fitness: -72.49, Variance: 2256.73
+seeds: [275, 4835, 20746, 17561, 16736, 1989, 1479, 18773, 10053, 5610, 9564, 24224, 27996, 18256, 5497, 25531, 7200, 12372, 5708, 14267]
+gen: 131,	best of gen fitness: -51.483,	best of gen size: 31
+Average fitness: -116.71, Standard deviation: 179.78, Minimum fitness: -990.39, Maximum fitness: -51.48, Best scores: 0/10, Best scores: 0.00/2.85, Median fitness: -60.52, Variance: 32319.10
+seeds: [21802, 29640, 19319, 9701, 29516, 25515, 9806, 5675, 12140, 27320, 19516, 12720, 7037, 10661, 20302, 382, 26630, 21760, 882, 18362]
+gen: 132,	best of gen fitness: -64.098,	best of gen size: 31
+Average fitness: -111.82, Standard deviation: 145.82, Minimum fitness: -653.33, Maximum fitness: -64.10, Best scores: 0/5, Best scores: 0.00/3.29, Median fitness: -64.10, Variance: 21264.17
+seeds: [692, 28415, 27128, 25879, 27931, 30745, 298, 27036, 16595, 23633, 3671, 13909, 14053, 29846, 1744, 16842, 23592, 13085, 1783, 27225]
+gen: 133,	best of gen fitness: -72.924,	best of gen size: 31
+Average fitness: -116.33, Standard deviation: 142.42, Minimum fitness: -585.49, Maximum fitness: -72.92, Best scores: 0/5, Best scores: 0.00/3.99, Median fitness: -72.92, Variance: 20284.47
+seeds: [4867, 9029, 11693, 28362, 24098, 24535, 31228, 513, 20886, 5860, 7186, 21589, 11368, 8640, 28788, 23066, 14181, 64, 14880, 926]
+gen: 134,	best of gen fitness: -50.028,	best of gen size: 31
+Average fitness: -105.73, Standard deviation: 147.94, Minimum fitness: -794.35, Maximum fitness: -50.03, Best scores: 0/5, Best scores: 0.00/4.60, Median fitness: -50.45, Variance: 21887.00
+seeds: [30259, 11082, 8305, 11229, 27229, 3148, 1577, 13824, 28179, 1519, 27371, 19498, 18649, 16691, 23546, 23429, 16895, 1858, 19097, 9704]
+gen: 135,	best of gen fitness: -95.337,	best of gen size: 31
+Average fitness: -197.64, Standard deviation: 240.90, Minimum fitness: -1219.66, Maximum fitness: -95.34, Best scores: 0/5, Best scores: 0.00/2.52, Median fitness: -113.94, Variance: 58035.21
+seeds: [12143, 24839, 24266, 10724, 5803, 2296, 15708, 4912, 17363, 25005, 6764, 28354, 28011, 25553, 15444, 25112, 13876, 18632, 21713, 19063]
+gen: 136,	best of gen fitness: -65.702,	best of gen size: 31
+Average fitness: -148.23, Standard deviation: 182.71, Minimum fitness: -704.41, Maximum fitness: -65.70, Best scores: 0/5, Best scores: 0.00/2.30, Median fitness: -73.68, Variance: 33382.26
+seeds: [27031, 31687, 4416, 17392, 14908, 16480, 996, 27993, 6344, 24422, 2507, 4556, 15833, 5694, 6786, 572, 6958, 25842, 31661, 2515]
+gen: 137,	best of gen fitness: -90.152,	best of gen size: 31
+Average fitness: -154.64, Standard deviation: 208.96, Minimum fitness: -1112.60, Maximum fitness: -90.15, Best scores: 0/5, Best scores: 0.00/2.60, Median fitness: -90.68, Variance: 43664.39
+seeds: [7181, 14976, 25149, 13769, 15283, 6982, 30940, 10751, 4048, 10276, 27048, 25169, 10413, 18105, 21683, 1562, 6554, 12370, 23934, 15020]
+gen: 138,	best of gen fitness: -57.167,	best of gen size: 31
+Average fitness: -133.45, Standard deviation: 244.10, Minimum fitness: -1201.59, Maximum fitness: -57.17, Best scores: 0/10, Best scores: 0.00/2.47, Median fitness: -57.17, Variance: 59584.59
+seeds: [13918, 496, 11236, 31122, 15250, 16085, 19882, 6065, 12669, 7515, 27780, 9593, 21556, 6977, 14843, 28939, 29379, 14830, 1266, 5424]
+gen: 139,	best of gen fitness: -64.635,	best of gen size: 31
+Average fitness: -162.25, Standard deviation: 211.92, Minimum fitness: -892.55, Maximum fitness: -64.63, Best scores: 0/5, Best scores: 0.00/3.99, Median fitness: -73.51, Variance: 44908.71
+seeds: [26431, 10745, 24169, 26391, 10602, 31906, 26692, 14354, 7869, 14861, 4274, 21837, 18681, 4321, 6316, 29617, 24065, 15543, 16866, 28962]
+gen: 140,	best of gen fitness: -72.476,	best of gen size: 31
+Average fitness: -138.47, Standard deviation: 188.02, Minimum fitness: -872.97, Maximum fitness: -72.48, Best scores: 0/10, Best scores: 0.00/4.46, Median fitness: -74.96, Variance: 35352.82
+seeds: [20341, 24102, 17289, 13942, 8648, 3317, 27724, 6110, 6619, 15741, 3771, 26688, 25380, 8692, 3296, 16003, 23611, 2335, 23219, 29295]
+gen: 141,	best of gen fitness: -82.741,	best of gen size: 31
+Average fitness: -178.62, Standard deviation: 245.59, Minimum fitness: -863.74, Maximum fitness: -82.74, Best scores: 0/5, Best scores: 0.00/3.34, Median fitness: -83.42, Variance: 60313.91
+seeds: [24909, 17076, 846, 31853, 4449, 25291, 3475, 8577, 25316, 23577, 12791, 20492, 25547, 14609, 6583, 27620, 10653, 18308, 8002, 1445]
+gen: 142,	best of gen fitness: -100.015,	best of gen size: 31
+Average fitness: -152.72, Standard deviation: 167.40, Minimum fitness: -854.43, Maximum fitness: -100.02, Best scores: 0/5, Best scores: 0.00/3.12, Median fitness: -103.64, Variance: 28023.75
+seeds: [520, 25800, 29708, 19583, 21511, 1436, 5614, 12928, 5815, 31997, 24326, 26304, 12076, 23410, 31807, 18249, 14654, 19925, 13820, 9386]
+gen: 143,	best of gen fitness: -135.413,	best of gen size: 31
+Average fitness: -198.40, Standard deviation: 177.01, Minimum fitness: -794.66, Maximum fitness: -135.41, Best scores: 0/5, Best scores: 0.00/2.68, Median fitness: -135.41, Variance: 31333.40
+seeds: [2161, 16948, 19439, 19663, 8056, 6425, 8302, 19566, 6197, 14650, 22635, 16083, 22048, 26418, 26848, 29141, 18201, 25146, 21551, 12171]
+gen: 144,	best of gen fitness: -88.858,	best of gen size: 31
+Average fitness: -140.35, Standard deviation: 155.51, Minimum fitness: -794.56, Maximum fitness: -88.86, Best scores: 0/5, Best scores: 0.00/2.98, Median fitness: -89.27, Variance: 24181.85
+seeds: [14041, 3398, 19546, 5898, 22163, 28892, 17125, 16409, 11186, 5761, 3719, 2903, 4965, 14154, 2899, 7341, 4410, 21537, 13729, 4126]
+gen: 145,	best of gen fitness: -57.073,	best of gen size: 31
+Average fitness: -126.92, Standard deviation: 181.83, Minimum fitness: -925.89, Maximum fitness: -57.07, Best scores: 0/5, Best scores: 0.00/3.32, Median fitness: -58.74, Variance: 33062.21
+seeds: [26597, 9301, 1294, 17889, 18843, 9180, 19107, 12245, 4377, 15627, 1757, 30358, 24321, 19387, 10282, 11127, 25192, 20554, 128, 25122]
+gen: 146,	best of gen fitness: -109.968,	best of gen size: 31
+Average fitness: -177.95, Standard deviation: 149.50, Minimum fitness: -698.11, Maximum fitness: -109.97, Best scores: 0/5, Best scores: 0.00/3.01, Median fitness: -135.72, Variance: 22351.01
+seeds: [27091, 21616, 16174, 1549, 31636, 12283, 26346, 20407, 15644, 4329, 24396, 4048, 2637, 12068, 17807, 927, 5998, 21074, 22342, 16130]
+gen: 147,	best of gen fitness: -73.577,	best of gen size: 30
+Average fitness: -122.33, Standard deviation: 118.59, Minimum fitness: -781.68, Maximum fitness: -73.58, Best scores: 0/5, Best scores: 0.00/2.25, Median fitness: -105.90, Variance: 14063.84
+seeds: [4333, 5302, 20399, 25424, 14874, 30598, 1962, 31993, 535, 24497, 19294, 20949, 5649, 25341, 8783, 3560, 14326, 7720, 4365, 31156]
+gen: 148,	best of gen fitness: -67.309,	best of gen size: 30
+Average fitness: -165.27, Standard deviation: 213.23, Minimum fitness: -970.39, Maximum fitness: -67.31, Best scores: 0/5, Best scores: 0.00/2.05, Median fitness: -97.39, Variance: 45468.78
+seeds: [29956, 9369, 17763, 15582, 28392, 10225, 7979, 12473, 9926, 24184, 28623, 9652, 3795, 28529, 8233, 25638, 17929, 5298, 7773, 7080]
+gen: 149,	best of gen fitness: -68.936,	best of gen size: 30
+Average fitness: -260.66, Standard deviation: 326.78, Minimum fitness: -1189.20, Maximum fitness: -68.94, Best scores: 0/10, Best scores: 0.00/2.76, Median fitness: -93.24, Variance: 106784.71
+seeds: [15258, 3044, 5424, 9374, 2140, 182, 12964, 10296, 29770, 23485, 29950, 16537, 15941, 10507, 6783, 15083, 20466, 4367, 29470, 29706]
+gen: 150,	best of gen fitness: -84.675,	best of gen size: 30
+Average fitness: -242.79, Standard deviation: 343.18, Minimum fitness: -1459.45, Maximum fitness: -84.67, Best scores: 0/5, Best scores: 0.00/3.32, Median fitness: -103.10, Variance: 117769.71
+seeds: [13304, 16319, 31995, 4503, 24355, 12178, 26440, 18705, 781, 10887, 18660, 5580, 21369, 16459, 10769, 5000, 8995, 3309, 17145, 26901]
+gen: 151,	best of gen fitness: -76.438,	best of gen size: 30
+Average fitness: -135.31, Standard deviation: 164.42, Minimum fitness: -1017.10, Maximum fitness: -76.44, Best scores: 0/5, Best scores: 0.00/2.23, Median fitness: -99.60, Variance: 27033.73
+seeds: [3028, 42, 10729, 19967, 21964, 19841, 16801, 17039, 30773, 11613, 20379, 11563, 18739, 4788, 7992, 14368, 925, 10339, 11650, 10171]
+gen: 152,	best of gen fitness: -86.019,	best of gen size: 30
+Average fitness: -214.29, Standard deviation: 279.20, Minimum fitness: -1226.11, Maximum fitness: -86.02, Best scores: 0/5, Best scores: 0.00/2.36, Median fitness: -115.62, Variance: 77954.70
+seeds: [8974, 13350, 25724, 12317, 3884, 1101, 21211, 30940, 22778, 13404, 23210, 20347, 4577, 3649, 20094, 13614, 21540, 14489, 16106, 4490]
+gen: 153,	best of gen fitness: -73.469,	best of gen size: 30
+Average fitness: -112.64, Standard deviation: 107.15, Minimum fitness: -798.04, Maximum fitness: -73.47, Best scores: 0/5, Best scores: 0.00/2.95, Median fitness: -87.85, Variance: 11480.80
+seeds: [26686, 11776, 6861, 27162, 20495, 7501, 18754, 17292, 27583, 22727, 20298, 27190, 15009, 21107, 21608, 29748, 26845, 7093, 967, 13980]
+gen: 154,	best of gen fitness: -74.828,	best of gen size: 30
+Average fitness: -89.73, Standard deviation: 16.33, Minimum fitness: -138.65, Maximum fitness: -74.83, Best scores: 0/5, Best scores: 0.00/3.07, Median fitness: -83.40, Variance: 266.55
+seeds: [28611, 20344, 4018, 25251, 19547, 185, 15197, 15135, 12526, 23154, 18522, 21040, 31986, 18565, 8382, 4561, 7374, 1989, 7745, 5849]
+gen: 155,	best of gen fitness: -63.519,	best of gen size: 30
+Average fitness: -90.49, Standard deviation: 44.37, Minimum fitness: -359.37, Maximum fitness: -63.52, Best scores: 0/5, Best scores: 0.00/3.25, Median fitness: -72.77, Variance: 1968.78
+seeds: [29572, 7884, 2873, 22646, 15198, 29446, 26393, 14332, 5995, 27413, 26026, 12507, 28941, 25712, 24542, 22878, 29512, 18677, 13888, 11933]
+gen: 156,	best of gen fitness: -66.009,	best of gen size: 30
+Average fitness: -111.22, Standard deviation: 112.80, Minimum fitness: -860.64, Maximum fitness: -66.01, Best scores: 0/5, Best scores: 0.00/1.67, Median fitness: -99.34, Variance: 12724.31
+seeds: [30194, 31960, 9821, 31012, 8878, 2723, 17363, 2957, 17134, 22594, 20468, 5386, 25986, 9217, 3036, 26511, 12661, 16886, 1987, 31622]
+gen: 157,	best of gen fitness: -69.342,	best of gen size: 30
+Average fitness: -153.25, Standard deviation: 202.48, Minimum fitness: -1189.54, Maximum fitness: -69.34, Best scores: 0/5, Best scores: 0.00/2.52, Median fitness: -78.70, Variance: 40997.73
+seeds: [30759, 18265, 30588, 5460, 15442, 7481, 25490, 14658, 31255, 28287, 4511, 3501, 30380, 17131, 5794, 23627, 12827, 6369, 31618, 1595]
+gen: 158,	best of gen fitness: -79.085,	best of gen size: 30
+Average fitness: -140.28, Standard deviation: 124.67, Minimum fitness: -733.36, Maximum fitness: -79.08, Best scores: 0/5, Best scores: 0.00/2.98, Median fitness: -100.68, Variance: 15543.46
+seeds: [27993, 22294, 6772, 29321, 4141, 18744, 28690, 31498, 26801, 28237, 6897, 12838, 13907, 24404, 23469, 3182, 26475, 8655, 16942, 31049]
+gen: 159,	best of gen fitness: -63.560,	best of gen size: 30
+Average fitness: -145.52, Standard deviation: 216.01, Minimum fitness: -1115.23, Maximum fitness: -63.56, Best scores: 0/5, Best scores: 0.00/2.15, Median fitness: -79.57, Variance: 46659.96
+seeds: [16808, 21564, 23707, 28250, 6938, 25558, 26241, 3855, 15420, 2603, 24500, 13262, 31488, 8863, 19431, 16525, 18407, 9371, 27199, 27253]
+gen: 160,	best of gen fitness: -43.993,	best of gen size: 30
+Average fitness: -104.21, Standard deviation: 124.17, Minimum fitness: -608.76, Maximum fitness: -43.99, Best scores: 0/5, Best scores: 0.00/2.76, Median fitness: -63.11, Variance: 15419.15
+seeds: [17187, 12344, 10721, 8261, 3507, 28988, 3317, 18340, 29052, 584, 9779, 20022, 14861, 25025, 21113, 12427, 12684, 7524, 8844, 25111]
+gen: 161,	best of gen fitness: -28.843,	best of gen size: 30
+Average fitness: -75.17, Standard deviation: 92.81, Minimum fitness: -668.25, Maximum fitness: -28.84, Best scores: 0/5, Best scores: 0.00/3.56, Median fitness: -41.48, Variance: 8613.94
+seeds: [327, 23576, 26145, 7818, 28028, 11856, 12435, 14499, 6928, 382, 15872, 2109, 11042, 24109, 21528, 6942, 18054, 29002, 19305, 29573]
+gen: 162,	best of gen fitness: -18.170,	best of gen size: 30
+Average fitness: -84.73, Standard deviation: 32.69, Minimum fitness: -221.54, Maximum fitness: -18.17, Best scores: 0/5, Best scores: 0.00/4.45, Median fitness: -76.98, Variance: 1068.32
+seeds: [29736, 8013, 27815, 8432, 26024, 13117, 8566, 17701, 25493, 4640, 18182, 9644, 7789, 17129, 28348, 22244, 7828, 17111, 9664, 1547]
+gen: 163,	best of gen fitness: -42.769,	best of gen size: 30
+Average fitness: -109.30, Standard deviation: 159.20, Minimum fitness: -792.99, Maximum fitness: -42.77, Best scores: 0/10, Best scores: 0.00/2.23, Median fitness: -56.61, Variance: 25344.06
+seeds: [18021, 12296, 21311, 15567, 20488, 8023, 19760, 31325, 6651, 9412, 3908, 25327, 1596, 26813, 31721, 28397, 29113, 30040, 21278, 24531]
+gen: 164,	best of gen fitness: -82.607,	best of gen size: 30
+Average fitness: -139.66, Standard deviation: 134.03, Minimum fitness: -685.70, Maximum fitness: -82.61, Best scores: 0/5, Best scores: 0.00/3.55, Median fitness: -100.65, Variance: 17964.75
+seeds: [10675, 14798, 5180, 17039, 26588, 9497, 115, 25007, 23822, 14489, 6313, 23924, 28224, 27085, 19819, 30207, 13783, 12091, 10950, 17317]
+gen: 165,	best of gen fitness: -54.359,	best of gen size: 30
+Average fitness: -75.94, Standard deviation: 26.61, Minimum fitness: -190.07, Maximum fitness: -54.36, Best scores: 0/5, Best scores: 0.00/4.48, Median fitness: -73.10, Variance: 708.14
+seeds: [18762, 16362, 9956, 15981, 31961, 19229, 15772, 6286, 9936, 28668, 24149, 6042, 16384, 12765, 3356, 1313, 185, 2995, 6113, 20615]
+gen: 166,	best of gen fitness: -57.108,	best of gen size: 30
+Average fitness: -91.36, Standard deviation: 94.99, Minimum fitness: -698.01, Maximum fitness: -57.11, Best scores: 0/5, Best scores: 0.00/3.36, Median fitness: -70.37, Variance: 9023.11
+seeds: [10095, 19103, 8007, 21146, 25570, 25302, 14738, 18107, 25747, 10186, 23921, 19685, 1222, 8714, 29457, 29536, 28435, 17028, 6256, 15384]
+gen: 167,	best of gen fitness: -18.371,	best of gen size: 30
+Average fitness: -47.41, Standard deviation: 54.49, Minimum fitness: -365.26, Maximum fitness: -18.37, Best scores: 0/5, Best scores: 0.00/3.71, Median fitness: -25.04, Variance: 2969.12
+seeds: [22926, 18699, 23325, 17609, 18636, 6336, 10438, 11543, 5538, 11169, 13910, 19149, 30058, 2092, 27009, 13774, 31246, 27953, 1627, 10359]
+gen: 168,	best of gen fitness: -57.954,	best of gen size: 30
+Average fitness: -123.31, Standard deviation: 29.71, Minimum fitness: -216.80, Maximum fitness: -57.95, Best scores: 0/5, Best scores: 0.00/4.46, Median fitness: -134.55, Variance: 882.89
+seeds: [4593, 23980, 2067, 13870, 31466, 30187, 4513, 27262, 12919, 13099, 20033, 4168, 5586, 24889, 6404, 19358, 6858, 9185, 28531, 20983]
+gen: 169,	best of gen fitness: -58.296,	best of gen size: 30
+Average fitness: -91.94, Standard deviation: 40.64, Minimum fitness: -267.24, Maximum fitness: -58.30, Best scores: 0/5, Best scores: 0.00/1.88, Median fitness: -76.82, Variance: 1651.86
+seeds: [9912, 4844, 19481, 21165, 9809, 11360, 6826, 16359, 28452, 1187, 13628, 12367, 30726, 30140, 27501, 16126, 30929, 26903, 2553, 14824]
+gen: 170,	best of gen fitness: -73.915,	best of gen size: 30
+Average fitness: -116.73, Standard deviation: 94.90, Minimum fitness: -529.04, Maximum fitness: -73.91, Best scores: 0/5, Best scores: 0.00/2.85, Median fitness: -87.56, Variance: 9005.83
+seeds: [11812, 5272, 25845, 28467, 27740, 16880, 13918, 23279, 29646, 28834, 22428, 353, 130, 28169, 21238, 18652, 30949, 13014, 9686, 26182]
+gen: 171,	best of gen fitness: -39.642,	best of gen size: 30
+Average fitness: -80.28, Standard deviation: 57.22, Minimum fitness: -424.83, Maximum fitness: -39.64, Best scores: 0/5, Best scores: 0.00/1.78, Median fitness: -66.71, Variance: 3274.37
+seeds: [29866, 27014, 12557, 24713, 1824, 5461, 27581, 6714, 26272, 9315, 26378, 28862, 31551, 28073, 13144, 24470, 25012, 4750, 12080, 21989]
+gen: 172,	best of gen fitness: -41.066,	best of gen size: 30
+Average fitness: -84.69, Standard deviation: 95.81, Minimum fitness: -521.02, Maximum fitness: -41.07, Best scores: 0/5, Best scores: 0.00/2.36, Median fitness: -51.99, Variance: 9180.24
+seeds: [27179, 1352, 6696, 23510, 9166, 3063, 21309, 21627, 13194, 21740, 30828, 23227, 1315, 6257, 29986, 24710, 9252, 17249, 12201, 9129]
+gen: 173,	best of gen fitness: -64.929,	best of gen size: 30
+Average fitness: -133.00, Standard deviation: 118.97, Minimum fitness: -583.08, Maximum fitness: -64.93, Best scores: 0/5, Best scores: 0.00/2.42, Median fitness: -92.38, Variance: 14154.73
+seeds: [28656, 28648, 25102, 2119, 452, 8462, 1345, 28713, 31977, 13306, 10481, 1058, 28328, 24972, 19795, 6702, 17409, 10338, 29925, 12268]
+gen: 174,	best of gen fitness: -50.264,	best of gen size: 30
+Average fitness: -109.13, Standard deviation: 130.48, Minimum fitness: -671.75, Maximum fitness: -50.26, Best scores: 0/5, Best scores: 0.00/2.91, Median fitness: -63.59, Variance: 17024.82
+seeds: [17590, 7765, 29028, 17298, 13362, 1253, 15620, 3001, 31625, 2940, 21916, 29322, 23896, 25359, 16436, 15219, 10048, 31284, 1710, 16335]
+gen: 175,	best of gen fitness: -47.125,	best of gen size: 30
+Average fitness: -142.48, Standard deviation: 53.35, Minimum fitness: -339.85, Maximum fitness: -47.12, Best scores: 0/10, Best scores: 0.00/3.99, Median fitness: -147.83, Variance: 2846.57
+seeds: [18613, 29070, 12661, 29533, 29553, 16793, 14039, 27756, 3531, 11485, 19209, 14290, 26498, 19167, 14511, 15287, 12188, 2809, 28890, 23055]
+gen: 176,	best of gen fitness: -60.302,	best of gen size: 30
+Average fitness: -147.68, Standard deviation: 122.90, Minimum fitness: -506.35, Maximum fitness: -60.30, Best scores: 0/5, Best scores: 0.00/2.45, Median fitness: -90.78, Variance: 15105.20
+seeds: [25745, 10358, 9708, 12469, 18670, 21709, 27804, 27958, 9073, 24665, 31172, 21492, 10647, 1948, 18976, 4024, 5755, 5783, 31911, 6863]
+gen: 177,	best of gen fitness: -64.699,	best of gen size: 31
+Average fitness: -114.57, Standard deviation: 120.51, Minimum fitness: -560.94, Maximum fitness: -64.70, Best scores: 0/5, Best scores: 0.00/3.88, Median fitness: -72.15, Variance: 14522.65
+seeds: [14921, 21917, 1510, 413, 27529, 17874, 16366, 8654, 21360, 2952, 12023, 17740, 13752, 26688, 7314, 7038, 31594, 2871, 3828, 27304]
+gen: 178,	best of gen fitness: -15.004,	best of gen size: 30
+Average fitness: -132.93, Standard deviation: 108.62, Minimum fitness: -427.70, Maximum fitness: -15.00, Best scores: 1/5, Best scores: 0.04/3.09, Median fitness: -72.85, Variance: 11798.08
+seeds: [14263, 28225, 11900, 28829, 22292, 9305, 28295, 11305, 30246, 13880, 14514, 30366, 22872, 23987, 25203, 18249, 23605, 19174, 4314, 19489]
+gen: 179,	best of gen fitness: -51.873,	best of gen size: 31
+Average fitness: -160.65, Standard deviation: 139.26, Minimum fitness: -475.48, Maximum fitness: -51.87, Best scores: 0/5, Best scores: 0.00/1.96, Median fitness: -81.84, Variance: 19392.39
+seeds: [1384, 17010, 25093, 15439, 31795, 2556, 1492, 18129, 30779, 22352, 28846, 8119, 6743, 13747, 17160, 12710, 16131, 22016, 4095, 22489]
+gen: 180,	best of gen fitness: -37.306,	best of gen size: 29
+Average fitness: -115.02, Standard deviation: 110.08, Minimum fitness: -534.28, Maximum fitness: -37.31, Best scores: 1/5, Best scores: 0.04/2.23, Median fitness: -79.20, Variance: 12116.52
+seeds: [15728, 7037, 2181, 28464, 10450, 19958, 15629, 17897, 23322, 24554, 12997, 23589, 9807, 757, 17508, 26672, 8933, 21405, 14409, 18977]
+gen: 181,	best of gen fitness: -22.534,	best of gen size: 31
+Average fitness: -198.87, Standard deviation: 185.35, Minimum fitness: -768.73, Maximum fitness: -22.53, Best scores: 0/5, Best scores: 0.08/2.68, Median fitness: -81.82, Variance: 34353.92
+seeds: [28486, 15280, 26857, 30295, 11313, 17091, 506, 5917, 447, 15938, 17759, 7646, 31170, 23906, 7058, 27024, 115, 13311, 12226, 5203]
+gen: 182,	best of gen fitness: -33.925,	best of gen size: 31
+Average fitness: -121.23, Standard deviation: 168.14, Minimum fitness: -652.95, Maximum fitness: -33.92, Best scores: 0/10, Best scores: 0.00/2.87, Median fitness: -58.93, Variance: 28270.88
+seeds: [2396, 23636, 8250, 3097, 19180, 14514, 17736, 25916, 7023, 12295, 14811, 21331, 5750, 40, 23545, 532, 2992, 22118, 29962, 28990]
+gen: 183,	best of gen fitness: 28.700,	best of gen size: 31
+Average fitness: -78.56, Standard deviation: 136.38, Minimum fitness: -490.08, Maximum fitness: 28.70, Best scores: 0/5, Best scores: 0.00/2.22, Median fitness: -11.26, Variance: 18598.94
+seeds: [10737, 6041, 8113, 17712, 4613, 21841, 26077, 15933, 17178, 31070, 20664, 1661, 21002, 23733, 20394, 12724, 27109, 21992, 16583, 19645]
+gen: 184,	best of gen fitness: -34.631,	best of gen size: 31
+Average fitness: -138.72, Standard deviation: 116.65, Minimum fitness: -649.97, Maximum fitness: -34.63, Best scores: 0/5, Best scores: 0.00/3.53, Median fitness: -85.13, Variance: 13606.11
+seeds: [10755, 10919, 31528, 27952, 5449, 23897, 6294, 25330, 26871, 17467, 30044, 7329, 19922, 31961, 14203, 30329, 10282, 3329, 15406, 23008]
+gen: 185,	best of gen fitness: 22.670,	best of gen size: 22
+Average fitness: -79.25, Standard deviation: 147.87, Minimum fitness: -648.01, Maximum fitness: 22.67, Best scores: 1/5, Best scores: 0.06/3.41, Median fitness: -31.36, Variance: 21864.62
+seeds: [24636, 16398, 17200, 4571, 11187, 18856, 17181, 17901, 13593, 21665, 10796, 29218, 30737, 2281, 17903, 17289, 13684, 13789, 5012, 9202]
+gen: 186,	best of gen fitness: -13.488,	best of gen size: 22
+Average fitness: -137.57, Standard deviation: 260.21, Minimum fitness: -1211.98, Maximum fitness: -13.49, Best scores: 0/5, Best scores: 0.04/2.82, Median fitness: -44.73, Variance: 67707.93
+seeds: [28785, 25506, 19337, 24883, 501, 9024, 23282, 26333, 11684, 1522, 31155, 12705, 15464, 27968, 6593, 15447, 20669, 18820, 22271, 12412]
+gen: 187,	best of gen fitness: 25.606,	best of gen size: 31
+Average fitness: -63.90, Standard deviation: 105.86, Minimum fitness: -497.92, Maximum fitness: 25.61, Best scores: 1/5, Best scores: 0.06/2.06, Median fitness: -16.07, Variance: 11205.73
+seeds: [29344, 11492, 19528, 7533, 18663, 3033, 25421, 3094, 31400, 29210, 4166, 26405, 23398, 28883, 24544, 17389, 1738, 16046, 28647, 20034]
+gen: 188,	best of gen fitness: -2.061,	best of gen size: 22
+Average fitness: -113.10, Standard deviation: 168.51, Minimum fitness: -544.48, Maximum fitness: -2.06, Best scores: 0/5, Best scores: 0.04/1.40, Median fitness: -17.12, Variance: 28394.54
+seeds: [7960, 11776, 6838, 25996, 27816, 18675, 8789, 15162, 29822, 14296, 17609, 31815, 8326, 1186, 29565, 19263, 11644, 15095, 15788, 24184]
+gen: 189,	best of gen fitness: -7.725,	best of gen size: 22
+Average fitness: -131.04, Standard deviation: 154.86, Minimum fitness: -648.06, Maximum fitness: -7.72, Best scores: 0/5, Best scores: 0.02/1.88, Median fitness: -104.39, Variance: 23982.82
+seeds: [21484, 12234, 6948, 19897, 16744, 11276, 24882, 24557, 9290, 16923, 4767, 15048, 27462, 17453, 22308, 18919, 15047, 31939, 31979, 25590]
+gen: 190,	best of gen fitness: -12.629,	best of gen size: 22
+Average fitness: -74.48, Standard deviation: 100.35, Minimum fitness: -490.13, Maximum fitness: -12.63, Best scores: 0/5, Best scores: 0.00/3.09, Median fitness: -21.14, Variance: 10069.24
+seeds: [2391, 17638, 21257, 12912, 21305, 21770, 25181, 8523, 14165, 19159, 13717, 2752, 24503, 20662, 25881, 31436, 23897, 10789, 27457, 6559]
+gen: 191,	best of gen fitness: -12.243,	best of gen size: 22
+Average fitness: -102.61, Standard deviation: 121.64, Minimum fitness: -641.16, Maximum fitness: -12.24, Best scores: 0/5, Best scores: 0.02/3.34, Median fitness: -54.77, Variance: 14797.29
+seeds: [23661, 22687, 22850, 24718, 3678, 4226, 20625, 31216, 28696, 12429, 12989, 287, 27738, 16007, 3169, 8418, 17058, 11083, 9335, 10115]
+gen: 192,	best of gen fitness: 25.112,	best of gen size: 26
+Average fitness: -108.90, Standard deviation: 195.64, Minimum fitness: -1020.06, Maximum fitness: 25.11, Best scores: 0/5, Best scores: 0.00/2.72, Median fitness: -38.71, Variance: 38273.59
+seeds: [24390, 2578, 15091, 21615, 19106, 24762, 29590, 25205, 19949, 11723, 18950, 15563, 25317, 19701, 9127, 10718, 24280, 27756, 16930, 9610]
+gen: 193,	best of gen fitness: 71.089,	best of gen size: 26
+Average fitness: -136.27, Standard deviation: 262.67, Minimum fitness: -977.08, Maximum fitness: 71.09, Best scores: 0/5, Best scores: 0.02/3.41, Median fitness: -14.89, Variance: 68996.96
+seeds: [28597, 12818, 3866, 9168, 10508, 10359, 29368, 8102, 3824, 375, 529, 13976, 17227, 26796, 3017, 5418, 833, 28831, 27733, 7304]
+gen: 194,	best of gen fitness: -31.212,	best of gen size: 30
+Average fitness: -95.33, Standard deviation: 120.15, Minimum fitness: -473.17, Maximum fitness: -31.21, Best scores: 0/5, Best scores: 0.00/2.05, Median fitness: -33.96, Variance: 14436.65
+seeds: [15592, 31094, 11699, 146, 14879, 25305, 31606, 2789, 25595, 8027, 653, 18348, 1497, 25467, 854, 26092, 7797, 22245, 26552, 6938]
+gen: 195,	best of gen fitness: 33.501,	best of gen size: 23
+Average fitness: -142.92, Standard deviation: 99.23, Minimum fitness: -525.84, Maximum fitness: 33.50, Best scores: 1/5, Best scores: 0.06/2.63, Median fitness: -128.14, Variance: 9845.81
+seeds: [4959, 16259, 156, 2711, 27809, 4605, 29672, 15780, 11750, 16356, 5357, 30054, 30497, 11088, 15152, 1945, 5428, 24232, 17227, 16384]
+gen: 196,	best of gen fitness: 35.419,	best of gen size: 26
+Average fitness: -45.89, Standard deviation: 101.85, Minimum fitness: -454.49, Maximum fitness: 35.42, Best scores: 0/5, Best scores: 0.15/4.04, Median fitness: -12.35, Variance: 10373.91
+seeds: [25149, 13676, 5907, 20045, 12565, 20979, 25163, 1217, 1444, 29860, 2021, 16553, 3035, 20625, 14445, 31947, 24454, 18312, 15945, 25245]
+gen: 197,	best of gen fitness: 14.378,	best of gen size: 25
+Average fitness: -57.30, Standard deviation: 106.08, Minimum fitness: -655.18, Maximum fitness: 14.38, Best scores: 0/5, Best scores: 0.08/2.30, Median fitness: -17.90, Variance: 11253.31
+seeds: [21663, 23556, 11331, 15357, 14084, 11133, 12245, 4219, 5021, 13656, 10931, 5543, 21315, 18475, 26414, 24192, 8343, 17989, 977, 31592]
+gen: 198,	best of gen fitness: -66.259,	best of gen size: 28
+Average fitness: -153.49, Standard deviation: 128.83, Minimum fitness: -630.34, Maximum fitness: -66.26, Best scores: 0/5, Best scores: 0.00/2.30, Median fitness: -104.34, Variance: 16596.18
+seeds: [4172, 31520, 21765, 23255, 14324, 18794, 18940, 17684, 19847, 31126, 10858, 17022, 13119, 18402, 11946, 23568, 26864, 27541, 7890, 20588]
+gen: 199,	best of gen fitness: 19.582,	best of gen size: 25
+Average fitness: -66.24, Standard deviation: 81.82, Minimum fitness: -360.61, Maximum fitness: 19.58, Best scores: 0/10, Best scores: 0.02/2.06, Median fitness: -37.42, Variance: 6694.67
+seeds: [2949, 31669, 8400, 3367, 28077, 22557, 22865, 25839, 7514, 8347, 11685, 23395, 26107, 18521, 21623, 23370, 22537, 13521, 20643, 9921]
+gen: 200,	best of gen fitness: 48.166,	best of gen size: 31
+Average fitness: -88.25, Standard deviation: 187.41, Minimum fitness: -588.89, Maximum fitness: 48.17, Best scores: 0/10, Best scores: 0.06/2.23, Median fitness: -4.22, Variance: 35123.08
+seeds: [30258, 26500, 2764, 23466, 20119, 12193, 6257, 9127, 11565, 946, 13530, 18623, 21700, 30673, 26750, 11350, 11969, 8577, 29311, 2218]
+gen: 201,	best of gen fitness: -56.136,	best of gen size: 25
+Average fitness: -163.35, Standard deviation: 84.83, Minimum fitness: -484.23, Maximum fitness: -56.14, Best scores: 0/5, Best scores: 0.00/2.78, Median fitness: -160.70, Variance: 7195.72
+seeds: [25822, 26242, 15000, 9578, 17450, 7994, 28713, 4392, 31385, 30460, 10643, 26131, 21675, 26118, 6448, 4453, 30588, 2059, 25526, 13341]
+gen: 202,	best of gen fitness: 32.266,	best of gen size: 29
+Average fitness: -73.16, Standard deviation: 114.34, Minimum fitness: -609.46, Maximum fitness: 32.27, Best scores: 0/5, Best scores: 0.10/1.97, Median fitness: -44.99, Variance: 13073.19
+seeds: [27936, 31417, 2043, 55, 4661, 21083, 22825, 19856, 5378, 9533, 27982, 2079, 6184, 6287, 31100, 3129, 15318, 3454, 6356, 9918]
+gen: 203,	best of gen fitness: -2.718,	best of gen size: 31
+Average fitness: -130.28, Standard deviation: 146.00, Minimum fitness: -589.83, Maximum fitness: -2.72, Best scores: 0/5, Best scores: 0.02/2.23, Median fitness: -99.44, Variance: 21315.06
+seeds: [29790, 6599, 10580, 9888, 17463, 20610, 17542, 6558, 23406, 20928, 4888, 31382, 31669, 19049, 21054, 19, 18153, 11967, 26396, 29512]
+gen: 204,	best of gen fitness: 57.335,	best of gen size: 29
+Average fitness: -57.04, Standard deviation: 130.13, Minimum fitness: -532.78, Maximum fitness: 57.34, Best scores: 0/5, Best scores: 0.00/2.30, Median fitness: -12.51, Variance: 16935.11
+seeds: [13184, 1417, 994, 3944, 1819, 26994, 13994, 17848, 11468, 960, 25962, 5227, 2402, 6581, 24731, 26835, 1525, 20792, 15674, 4464]
+gen: 205,	best of gen fitness: -5.417,	best of gen size: 31
+Average fitness: -105.62, Standard deviation: 144.32, Minimum fitness: -537.07, Maximum fitness: -5.42, Best scores: 0/10, Best scores: 0.02/2.82, Median fitness: -35.67, Variance: 20828.77
+seeds: [19528, 22242, 20778, 2300, 19107, 3909, 27861, 2302, 28030, 3659, 6923, 19080, 11330, 30568, 17131, 14023, 16927, 6785, 14979, 13645]
+gen: 206,	best of gen fitness: 21.582,	best of gen size: 31
+Average fitness: -77.82, Standard deviation: 177.68, Minimum fitness: -620.07, Maximum fitness: 21.58, Best scores: 0/5, Best scores: 0.00/3.65, Median fitness: 3.29, Variance: 31571.36
+seeds: [10954, 6992, 11903, 28258, 7331, 30319, 13804, 1460, 22893, 23614, 22674, 10850, 8924, 2707, 20876, 21338, 7679, 25528, 19689, 907]
+gen: 207,	best of gen fitness: 65.602,	best of gen size: 29
+Average fitness: -11.14, Standard deviation: 151.96, Minimum fitness: -647.03, Maximum fitness: 65.60, Best scores: 1/5, Best scores: 0.54/2.34, Median fitness: 26.76, Variance: 23090.87
+seeds: [21089, 10719, 3375, 16734, 10225, 21412, 12227, 24060, 834, 12445, 4709, 8373, 25656, 14847, 12866, 15840, 13321, 29051, 30567, 28814]
+gen: 208,	best of gen fitness: 60.823,	best of gen size: 31
+Average fitness: -34.16, Standard deviation: 146.93, Minimum fitness: -688.11, Maximum fitness: 60.82, Best scores: 0/5, Best scores: 0.23/3.29, Median fitness: 6.18, Variance: 21589.67
+seeds: [4959, 19492, 19641, 3497, 854, 10363, 21120, 26633, 2004, 5919, 14810, 21596, 25856, 18113, 13787, 28378, 28903, 2858, 6154, 16180]
+gen: 209,	best of gen fitness: 4.880,	best of gen size: 29
+Average fitness: -64.63, Standard deviation: 88.23, Minimum fitness: -506.63, Maximum fitness: 4.88, Best scores: 0/10, Best scores: 0.02/2.91, Median fitness: -39.91, Variance: 7785.03
+seeds: [14430, 12353, 12624, 16203, 27761, 27271, 25065, 28086, 15709, 25273, 24517, 7009, 13805, 2951, 8890, 3914, 20318, 21697, 31806, 29203]
+gen: 210,	best of gen fitness: -3.486,	best of gen size: 31
+Average fitness: -72.24, Standard deviation: 54.52, Minimum fitness: -320.26, Maximum fitness: -3.49, Best scores: 0/5, Best scores: 0.00/3.39, Median fitness: -56.53, Variance: 2972.71
+seeds: [7569, 1371, 26377, 6513, 2783, 20018, 31613, 21976, 22496, 5124, 21022, 14484, 6138, 25076, 15793, 7863, 26207, 9032, 28774, 26496]
+gen: 211,	best of gen fitness: 56.935,	best of gen size: 31
+Average fitness: -49.31, Standard deviation: 128.58, Minimum fitness: -519.35, Maximum fitness: 56.94, Best scores: 1/5, Best scores: 0.38/2.23, Median fitness: -16.73, Variance: 16532.18
+seeds: [31114, 9729, 23147, 27786, 31708, 26304, 22848, 17684, 23203, 4320, 27670, 15518, 14733, 9801, 25215, 4323, 3447, 19765, 3560, 8711]
+gen: 212,	best of gen fitness: -0.290,	best of gen size: 31
+Average fitness: -63.16, Standard deviation: 138.57, Minimum fitness: -631.08, Maximum fitness: -0.29, Best scores: 0/5, Best scores: 0.15/2.47, Median fitness: -18.07, Variance: 19200.57
+seeds: [5473, 26467, 18312, 27967, 28724, 7202, 15608, 11277, 29396, 3275, 23102, 29370, 22930, 26901, 16534, 21679, 8333, 22008, 31665, 17397]
+gen: 213,	best of gen fitness: 59.190,	best of gen size: 31
+Average fitness: -42.71, Standard deviation: 116.56, Minimum fitness: -625.08, Maximum fitness: 59.19, Best scores: 0/15, Best scores: 0.06/3.32, Median fitness: -14.01, Variance: 13585.33
+seeds: [7210, 5527, 8770, 14225, 24228, 20254, 5933, 29013, 27168, 5794, 17922, 16542, 8039, 15109, 9311, 17842, 16068, 15491, 21666, 27683]
+gen: 214,	best of gen fitness: 62.116,	best of gen size: 31
+Average fitness: -79.17, Standard deviation: 175.53, Minimum fitness: -642.93, Maximum fitness: 62.12, Best scores: 2/5, Best scores: 0.44/2.91, Median fitness: -74.24, Variance: 30809.48
+seeds: [11219, 4465, 14446, 20835, 21680, 31566, 21768, 11543, 2006, 18358, 11011, 17943, 11446, 1076, 30812, 553, 19040, 1620, 24333, 4800]
+gen: 215,	best of gen fitness: 24.175,	best of gen size: 30
+Average fitness: -67.69, Standard deviation: 131.35, Minimum fitness: -568.15, Maximum fitness: 24.18, Best scores: 0/5, Best scores: 0.29/2.91, Median fitness: -53.38, Variance: 17251.66
+seeds: [6360, 4968, 11622, 2303, 25435, 20619, 5577, 31806, 9917, 27405, 30184, 3344, 20972, 5788, 25585, 3403, 25083, 31902, 401, 28499]
+gen: 216,	best of gen fitness: 62.037,	best of gen size: 31
+Average fitness: -9.32, Standard deviation: 68.12, Minimum fitness: -345.07, Maximum fitness: 62.04, Best scores: 0/5, Best scores: 0.06/2.79, Median fitness: 6.49, Variance: 4640.54
+seeds: [31913, 16937, 6583, 5021, 14041, 6137, 29187, 11414, 11198, 25482, 29802, 2807, 11715, 5353, 15219, 28573, 30029, 2908, 3211, 873]
+gen: 217,	best of gen fitness: 6.987,	best of gen size: 31
+Average fitness: -50.49, Standard deviation: 113.22, Minimum fitness: -610.62, Maximum fitness: 6.99, Best scores: 0/5, Best scores: 0.00/2.36, Median fitness: -15.76, Variance: 12819.06
+seeds: [16496, 421, 27755, 265, 19832, 10478, 9706, 3390, 14407, 10031, 31969, 24121, 1137, 9294, 20462, 13934, 19777, 4464, 4106, 25250]
+gen: 218,	best of gen fitness: 27.738,	best of gen size: 31
+Average fitness: -60.09, Standard deviation: 180.55, Minimum fitness: -707.88, Maximum fitness: 27.74, Best scores: 0/5, Best scores: 0.00/2.89, Median fitness: 3.53, Variance: 32598.69
+seeds: [20882, 16946, 457, 3141, 7444, 15837, 22107, 14334, 10707, 2897, 5294, 24014, 30919, 9522, 1154, 13054, 19898, 3666, 23541, 20027]
+gen: 219,	best of gen fitness: 84.093,	best of gen size: 29
+Average fitness: -106.33, Standard deviation: 83.42, Minimum fitness: -429.18, Maximum fitness: 84.09, Best scores: 1/5, Best scores: 0.04/3.98, Median fitness: -89.44, Variance: 6959.55
+seeds: [20574, 18631, 11987, 1022, 22828, 28222, 22118, 19422, 5416, 2881, 24773, 27413, 11752, 27243, 20109, 6908, 2358, 19359, 24023, 10363]
+gen: 220,	best of gen fitness: -43.918,	best of gen size: 31
+Average fitness: -115.14, Standard deviation: 74.86, Minimum fitness: -486.81, Maximum fitness: -43.92, Best scores: 0/10, Best scores: 0.06/4.98, Median fitness: -95.49, Variance: 5604.04
+seeds: [15227, 29552, 4922, 27322, 9735, 27241, 22020, 3842, 5654, 26750, 29853, 27700, 20308, 24220, 23623, 8610, 17490, 28082, 17488, 29467]
+gen: 221,	best of gen fitness: 65.143,	best of gen size: 29
+Average fitness: -54.62, Standard deviation: 107.87, Minimum fitness: -583.77, Maximum fitness: 65.14, Best scores: 0/5, Best scores: 0.00/2.38, Median fitness: -32.81, Variance: 11636.06
+seeds: [15486, 2981, 8387, 12188, 15194, 1290, 31686, 4738, 29873, 14347, 29250, 18475, 14774, 17052, 11912, 16933, 14212, 15126, 17057, 31896]
+gen: 222,	best of gen fitness: -30.177,	best of gen size: 29
+Average fitness: -217.48, Standard deviation: 213.55, Minimum fitness: -821.73, Maximum fitness: -30.18, Best scores: 0/5, Best scores: 0.00/2.68, Median fitness: -127.78, Variance: 45605.16
+seeds: [1599, 21799, 8456, 10790, 22310, 974, 21501, 13429, 28448, 3738, 1812, 14387, 21649, 26641, 8529, 28814, 27827, 14152, 723, 1801]
+gen: 223,	best of gen fitness: -7.937,	best of gen size: 29
+Average fitness: -119.85, Standard deviation: 169.00, Minimum fitness: -596.57, Maximum fitness: -7.94, Best scores: 0/5, Best scores: 0.00/2.87, Median fitness: -49.58, Variance: 28559.41
+seeds: [27477, 27526, 11518, 31664, 28568, 28770, 17066, 19735, 21541, 12501, 6401, 26721, 2709, 27704, 23595, 28855, 28745, 24358, 24254, 27372]
+gen: 224,	best of gen fitness: 16.326,	best of gen size: 29
+Average fitness: -76.00, Standard deviation: 76.62, Minimum fitness: -502.91, Maximum fitness: 16.33, Best scores: 1/5, Best scores: 0.04/2.30, Median fitness: -71.99, Variance: 5871.18
+seeds: [7574, 8465, 31142, 4185, 14838, 16182, 22397, 7098, 25850, 29316, 18723, 12064, 17978, 11120, 14353, 5726, 19822, 18259, 15148, 5673]
+gen: 225,	best of gen fitness: -10.062,	best of gen size: 29
+Average fitness: -168.99, Standard deviation: 182.88, Minimum fitness: -639.25, Maximum fitness: -10.06, Best scores: 0/5, Best scores: 0.08/1.97, Median fitness: -89.37, Variance: 33446.72
+seeds: [14957, 7604, 20852, 27984, 14060, 22860, 16824, 7598, 28440, 3888, 27196, 17923, 16908, 17332, 10829, 30943, 20523, 22785, 2614, 22285]
+gen: 226,	best of gen fitness: 20.632,	best of gen size: 27
+Average fitness: -109.62, Standard deviation: 144.95, Minimum fitness: -622.80, Maximum fitness: 20.63, Best scores: 1/15, Best scores: 0.08/2.91, Median fitness: -55.04, Variance: 21011.71
+seeds: [21130, 21177, 13669, 4811, 5640, 24251, 8927, 10167, 7934, 16480, 21373, 7380, 11298, 30500, 8529, 17990, 20566, 2768, 25300, 6687]
+gen: 227,	best of gen fitness: 38.289,	best of gen size: 31
+Average fitness: -64.42, Standard deviation: 161.77, Minimum fitness: -587.40, Maximum fitness: 38.29, Best scores: 0/5, Best scores: 0.15/4.83, Median fitness: 2.10, Variance: 26171.15
+seeds: [7727, 16486, 1229, 15793, 9496, 6423, 15609, 12741, 10020, 5491, 3601, 3146, 13942, 15779, 20471, 23269, 19962, 4840, 18785, 19602]
+gen: 228,	best of gen fitness: -24.582,	best of gen size: 30
+Average fitness: -82.91, Standard deviation: 92.04, Minimum fitness: -542.04, Maximum fitness: -24.58, Best scores: 0/5, Best scores: 0.04/3.47, Median fitness: -51.10, Variance: 8471.82
+seeds: [14112, 10018, 24635, 8288, 23710, 2268, 25179, 448, 28232, 16335, 21557, 13026, 2457, 14281, 1533, 293, 29556, 4187, 12727, 23726]
+gen: 229,	best of gen fitness: 43.985,	best of gen size: 31
+Average fitness: -139.25, Standard deviation: 184.41, Minimum fitness: -565.63, Maximum fitness: 43.99, Best scores: 1/5, Best scores: 0.15/4.27, Median fitness: -64.96, Variance: 34005.39
+seeds: [23893, 27851, 27879, 728, 28387, 738, 14924, 14279, 3043, 375, 17613, 2955, 10298, 24364, 26651, 30798, 21474, 18383, 6233, 7137]
+gen: 230,	best of gen fitness: 63.445,	best of gen size: 28
+Average fitness: -43.40, Standard deviation: 119.99, Minimum fitness: -629.69, Maximum fitness: 63.45, Best scores: 1/5, Best scores: 0.33/2.15, Median fitness: 4.26, Variance: 14396.60
+seeds: [4363, 31001, 24646, 1063, 14068, 18362, 422, 24490, 22551, 17654, 260, 15104, 28834, 29682, 16674, 11656, 21096, 29528, 29727, 13846]
+gen: 231,	best of gen fitness: 6.388,	best of gen size: 30
+Average fitness: -93.90, Standard deviation: 109.76, Minimum fitness: -590.09, Maximum fitness: 6.39, Best scores: 1/5, Best scores: 0.19/2.06, Median fitness: -61.46, Variance: 12046.73
+seeds: [8390, 1208, 20568, 25422, 29887, 29253, 30055, 9654, 2110, 11578, 21117, 39, 23319, 3026, 31104, 3061, 1585, 24200, 114, 22193]
+gen: 232,	best of gen fitness: 113.385,	best of gen size: 24
+Average fitness: -112.22, Standard deviation: 144.69, Minimum fitness: -622.43, Maximum fitness: 113.38, Best scores: 3/5, Best scores: 0.75/3.79, Median fitness: -117.43, Variance: 20936.33
+seeds: [25074, 23537, 16568, 2362, 6192, 20351, 12077, 11684, 3245, 5700, 25195, 13484, 26604, 10923, 9695, 15061, 6050, 5705, 8164, 22638]
+gen: 233,	best of gen fitness: 37.612,	best of gen size: 24
+Average fitness: -85.14, Standard deviation: 192.89, Minimum fitness: -711.85, Maximum fitness: 37.61, Best scores: 4/10, Best scores: 0.81/3.12, Median fitness: -0.54, Variance: 37206.12
+seeds: [18097, 8368, 14701, 11577, 9780, 1356, 10232, 27394, 3119, 30719, 2299, 3999, 21702, 71, 15808, 18719, 17050, 30966, 23277, 18063]
+gen: 234,	best of gen fitness: 5.616,	best of gen size: 19
+Average fitness: -85.07, Standard deviation: 151.91, Minimum fitness: -650.23, Maximum fitness: 5.62, Best scores: 1/5, Best scores: 0.25/2.91, Median fitness: -40.17, Variance: 23076.58
+seeds: [21994, 8441, 12468, 1044, 31392, 7666, 806, 10848, 5032, 27505, 3698, 17773, 24461, 6656, 21406, 19153, 20424, 16483, 6869, 29056]
+gen: 235,	best of gen fitness: 80.959,	best of gen size: 24
+Average fitness: -49.65, Standard deviation: 162.55, Minimum fitness: -645.30, Maximum fitness: 80.96, Best scores: 2/5, Best scores: 0.31/2.45, Median fitness: 34.67, Variance: 26420.93
+seeds: [25597, 10984, 26507, 1376, 2769, 8178, 29355, 13123, 24807, 25346, 1733, 20976, 28231, 29109, 27154, 22864, 15298, 17010, 15042, 21550]
+gen: 236,	best of gen fitness: 132.389,	best of gen size: 19
+Average fitness: -99.98, Standard deviation: 196.86, Minimum fitness: -620.32, Maximum fitness: 132.39, Best scores: 3/5, Best scores: 0.46/1.54, Median fitness: -21.72, Variance: 38753.49
+seeds: [27916, 27065, 26375, 8199, 25492, 17984, 9800, 20386, 17080, 9253, 28739, 1935, 24319, 8988, 179, 7234, 9233, 18219, 9725, 19106]
+gen: 237,	best of gen fitness: 97.125,	best of gen size: 30
+Average fitness: -124.27, Standard deviation: 182.35, Minimum fitness: -620.79, Maximum fitness: 97.12, Best scores: 1/5, Best scores: 0.54/1.40, Median fitness: -76.54, Variance: 33249.70
+seeds: [17647, 26991, 12644, 29948, 16518, 12628, 15541, 24610, 16899, 988, 4746, 30983, 18301, 31664, 27852, 11115, 2719, 28267, 11036, 15238]
+gen: 238,	best of gen fitness: 22.366,	best of gen size: 18
+Average fitness: -132.70, Standard deviation: 198.73, Minimum fitness: -599.10, Maximum fitness: 22.37, Best scores: 1/5, Best scores: 0.48/1.97, Median fitness: -38.15, Variance: 39491.88
+seeds: [9775, 3530, 30596, 25739, 28077, 28439, 13026, 5375, 24966, 8630, 9198, 27885, 7286, 26075, 19900, 6210, 31358, 26935, 2779, 12980]
+gen: 239,	best of gen fitness: 146.308,	best of gen size: 24
+Average fitness: -68.52, Standard deviation: 241.17, Minimum fitness: -627.36, Maximum fitness: 146.31, Best scores: 1/5, Best scores: 1.35/2.58, Median fitness: 77.11, Variance: 58163.91
+seeds: [27104, 21930, 4845, 9007, 13299, 8663, 16926, 29864, 2907, 24001, 28396, 14282, 16444, 2033, 31226, 1057, 15520, 28613, 16144, 12698]
+gen: 240,	best of gen fitness: 5.274,	best of gen size: 16
+Average fitness: -186.27, Standard deviation: 197.79, Minimum fitness: -693.11, Maximum fitness: 5.27, Best scores: 0/5, Best scores: 0.40/2.60, Median fitness: -106.17, Variance: 39121.70
+seeds: [29182, 22494, 7609, 19104, 21716, 18500, 29948, 11608, 31940, 17681, 5697, 13528, 24440, 10172, 19960, 2190, 11214, 30016, 13401, 18319]
+gen: 241,	best of gen fitness: 4.962,	best of gen size: 29
+Average fitness: -186.04, Standard deviation: 210.24, Minimum fitness: -679.25, Maximum fitness: 4.96, Best scores: 1/5, Best scores: 0.23/1.54, Median fitness: -99.30, Variance: 44202.45
+seeds: [13795, 23105, 12267, 11912, 11205, 22689, 21630, 22148, 19767, 20127, 25879, 18620, 24226, 20733, 31442, 13321, 31240, 21760, 1315, 14597]
+gen: 242,	best of gen fitness: 82.955,	best of gen size: 25
+Average fitness: -86.15, Standard deviation: 159.06, Minimum fitness: -596.51, Maximum fitness: 82.95, Best scores: 3/5, Best scores: 0.40/2.52, Median fitness: -23.21, Variance: 25301.64
+seeds: [7680, 10175, 8198, 25408, 29648, 27323, 14921, 1907, 18737, 3537, 4004, 17322, 1215, 2663, 22221, 25568, 5429, 26299, 22962, 31577]
+gen: 243,	best of gen fitness: 110.450,	best of gen size: 31
+Average fitness: -59.27, Standard deviation: 170.17, Minimum fitness: -594.67, Maximum fitness: 110.45, Best scores: 3/5, Best scores: 1.31/2.58, Median fitness: -39.70, Variance: 28957.75
+seeds: [8224, 31312, 3323, 13316, 3828, 4195, 18750, 29594, 21039, 26410, 13335, 16824, 2500, 16878, 30735, 15197, 23621, 16969, 22223, 20278]
+gen: 244,	best of gen fitness: 200.000,	best of gen size: 31
+Average fitness: -17.97, Standard deviation: 249.37, Minimum fitness: -647.45, Maximum fitness: 200.00, Best scores: 5/5, Best scores: 3.00/3.34, Median fitness: 156.17, Variance: 62183.17
+seeds: [1378, 14012, 19806, 8517, 26549, 11346, 13322, 20183, 22979, 28214, 6668, 4020, 22309, 28038, 27390, 18325, 13429, 16832, 19063, 3533]
+gen: 245,	best of gen fitness: -22.975,	best of gen size: 31
+Average fitness: -110.61, Standard deviation: 153.40, Minimum fitness: -585.26, Maximum fitness: -22.98, Best scores: 1/5, Best scores: 1.56/2.30, Median fitness: -27.22, Variance: 23530.24
+seeds: [28065, 6614, 25214, 20767, 19226, 22944, 31639, 28120, 7460, 23455, 24176, 6026, 10940, 7199, 7950, 190, 19472, 9211, 22308, 15947]
+gen: 246,	best of gen fitness: 10.286,	best of gen size: 30
+Average fitness: -83.96, Standard deviation: 152.71, Minimum fitness: -593.20, Maximum fitness: 10.29, Best scores: 1/5, Best scores: 1.15/3.22, Median fitness: 5.88, Variance: 23320.58
+seeds: [28920, 27446, 18028, 28067, 25696, 14354, 20234, 26213, 7401, 11555, 2964, 1419, 18596, 15430, 31237, 28377, 6142, 29682, 24229, 19764]
+gen: 247,	best of gen fitness: 94.849,	best of gen size: 31
+Average fitness: -30.87, Standard deviation: 211.84, Minimum fitness: -646.64, Maximum fitness: 94.85, Best scores: 2/10, Best scores: 1.92/4.09, Median fitness: 94.44, Variance: 44875.92
+seeds: [5994, 26616, 12733, 25394, 14720, 16483, 694, 6236, 7473, 30080, 10605, 30629, 1183, 9507, 25155, 22457, 10829, 7911, 14822, 1571]
+gen: 248,	best of gen fitness: 81.916,	best of gen size: 31
+Average fitness: -87.47, Standard deviation: 204.75, Minimum fitness: -598.30, Maximum fitness: 81.92, Best scores: 3/5, Best scores: 1.54/3.62, Median fitness: 29.30, Variance: 41923.45
+seeds: [338, 17181, 6784, 11859, 29585, 31325, 24112, 22150, 12695, 8450, 1513, 18094, 23610, 11477, 19876, 59, 15065, 27334, 18854, 16983]
+gen: 249,	best of gen fitness: 32.726,	best of gen size: 30
+Average fitness: -118.77, Standard deviation: 167.76, Minimum fitness: -570.09, Maximum fitness: 32.73, Best scores: 2/5, Best scores: 1.02/1.74, Median fitness: -57.75, Variance: 28142.57
+seeds: [3506, 6110, 5692, 14116, 10465, 18074, 18582, 13057, 10406, 14165, 6634, 7584, 5655, 12199, 16578, 23553, 3978, 5035, 23477, 3923]
+gen: 250,	best of gen fitness: 13.540,	best of gen size: 30
+Average fitness: -81.30, Standard deviation: 39.61, Minimum fitness: -191.98, Maximum fitness: 13.54, Best scores: 1/5, Best scores: 0.58/3.01, Median fitness: -81.76, Variance: 1569.16
+
